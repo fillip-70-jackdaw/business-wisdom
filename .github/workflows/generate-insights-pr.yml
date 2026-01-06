@@ -43,8 +43,14 @@ jobs:
         run: npx tsx ingest/scripts/resolve_images.ts
         continue-on-error: true
 
+      - name: Ensure queue directory exists
+        run: mkdir -p ingest/queue
+
       - name: Generate insights batch
         run: npx tsx ingest/scripts/generate_insights.ts
+
+      - name: List generated files
+        run: ls -la ingest/queue/
 
       - name: Create branch name
         id: branch
