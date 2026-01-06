@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*
+   * Warm Study Daylight Palette
+   * Midtones lifted ~6% for ambient warmth
+   * Card remains darkest element (visual anchor)
+   *
+   * SQUINT TEST: Card must be dominant shape when blurred
+   */
+  --bg0: #3D3028;
+  --bg1: #4A3D30;
+  --bg-edge: #2E241C;
+  --bg: var(--bg0);
+
+  /* Card surface - kept darker than background for separation */
+  --card-surface: #302418;
+  --card-surface-light: #3A2E22;
+
+  --surface: rgba(255, 238, 214, 0.04);
+  --surface-2: rgba(255, 238, 214, 0.07);
+  --tan: #D8B37C;
+  --parchment: #F7E8D0;
+  --brass: #C49A5C;
+  --text: rgba(247, 232, 208, 0.92);
+  --text-muted: rgba(247, 232, 208, 0.55);
+  --border: rgba(216, 179, 124, 0.22);
+  --border-hover: rgba(216, 179, 124, 0.38);
+}
+
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ultra-fine grain - barely perceptible */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.012;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  z-index: 9999;
+}
+
+/*
+ * Warm Study Background
+ * Layer 1: Bright parchment-tan glow behind card center
+ * Layer 2: Broader warm-brown field
+ * Layer 3: Soft edge vignette (not harsh)
+ */
+.bg-library {
+  background:
+    /* Bright parchment glow behind card center */
+    radial-gradient(ellipse 60% 50% at 50% 40%, rgba(216, 179, 124, 0.09) 0%, transparent 55%),
+    /* Secondary warm field */
+    radial-gradient(ellipse 100% 80% at 50% 45%, rgba(74, 61, 48, 0.5) 0%, transparent 70%),
+    /* Soft corner vignette - not black, warm brown */
+    radial-gradient(ellipse at 0% 100%, var(--bg-edge) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 100%, var(--bg-edge) 0%, transparent 50%),
+    radial-gradient(ellipse at 0% 0%, rgba(46, 36, 28, 0.3) 0%, transparent 40%),
+    radial-gradient(ellipse at 100% 0%, rgba(46, 36, 28, 0.3) 0%, transparent 40%),
+    /* Base gradient - lighter at center */
+    radial-gradient(ellipse 120% 100% at 50% 50%, var(--bg1) 0%, var(--bg0) 70%);
+}
+
+/* Subtle vertical rhythm lines - library shelf suggestion */
+.bg-library::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.02;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 119px,
+    rgba(216, 179, 124, 0.5) 119px,
+    rgba(216, 179, 124, 0.5) 120px
+  );
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-hover);
+}
+
+/* Focus states */
+*:focus-visible {
+  outline: 2px solid var(--tan);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(210, 180, 140, 0.3);
+  color: var(--parchment);
+}

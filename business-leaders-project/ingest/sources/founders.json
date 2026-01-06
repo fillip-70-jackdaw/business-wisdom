@@ -1,0 +1,287 @@
+{
+  "source": "founders",
+  "description": "Founders Podcast by David Senra - biographies of history's greatest entrepreneurs",
+  "base_url": "https://www.founderspodcast.com",
+  "episodes": [
+    {
+      "title": "Walt Disney",
+      "url": "https://www.founderspodcast.com/episodes/walt-disney",
+      "leaders": ["Walt Disney"],
+      "company": "Disney",
+      "year": 2023
+    },
+    {
+      "title": "Steve Jobs",
+      "url": "https://www.founderspodcast.com/episodes/steve-jobs",
+      "leaders": ["Steve Jobs"],
+      "company": "Apple",
+      "year": 2022
+    },
+    {
+      "title": "Henry Ford",
+      "url": "https://www.founderspodcast.com/episodes/henry-ford",
+      "leaders": ["Henry Ford"],
+      "company": "Ford Motor Company",
+      "year": 2022
+    },
+    {
+      "title": "Andrew Carnegie",
+      "url": "https://www.founderspodcast.com/episodes/andrew-carnegie",
+      "leaders": ["Andrew Carnegie"],
+      "company": "Carnegie Steel",
+      "year": 2021
+    },
+    {
+      "title": "John D. Rockefeller",
+      "url": "https://www.founderspodcast.com/episodes/john-d-rockefeller",
+      "leaders": ["John D. Rockefeller"],
+      "company": "Standard Oil",
+      "year": 2021
+    },
+    {
+      "title": "Estée Lauder",
+      "url": "https://www.founderspodcast.com/episodes/estee-lauder",
+      "leaders": ["Estée Lauder"],
+      "company": "Estée Lauder Companies",
+      "year": 2023
+    },
+    {
+      "title": "Sam Walton",
+      "url": "https://www.founderspodcast.com/episodes/sam-walton",
+      "leaders": ["Sam Walton"],
+      "company": "Walmart",
+      "year": 2021
+    },
+    {
+      "title": "Jeff Bezos",
+      "url": "https://www.founderspodcast.com/episodes/jeff-bezos",
+      "leaders": ["Jeff Bezos"],
+      "company": "Amazon",
+      "year": 2022
+    },
+    {
+      "title": "Enzo Ferrari",
+      "url": "https://www.founderspodcast.com/episodes/enzo-ferrari",
+      "leaders": ["Enzo Ferrari"],
+      "company": "Ferrari",
+      "year": 2022
+    },
+    {
+      "title": "Coco Chanel",
+      "url": "https://www.founderspodcast.com/episodes/coco-chanel",
+      "leaders": ["Coco Chanel"],
+      "company": "Chanel",
+      "year": 2023
+    },
+    {
+      "title": "Edwin Land",
+      "url": "https://www.founderspodcast.com/episodes/edwin-land",
+      "leaders": ["Edwin Land"],
+      "company": "Polaroid",
+      "year": 2022
+    },
+    {
+      "title": "Soichiro Honda",
+      "url": "https://www.founderspodcast.com/episodes/soichiro-honda",
+      "leaders": ["Soichiro Honda"],
+      "company": "Honda",
+      "year": 2022
+    },
+    {
+      "title": "James Dyson",
+      "url": "https://www.founderspodcast.com/episodes/james-dyson",
+      "leaders": ["James Dyson"],
+      "company": "Dyson",
+      "year": 2023
+    },
+    {
+      "title": "Phil Knight",
+      "url": "https://www.founderspodcast.com/episodes/phil-knight",
+      "leaders": ["Phil Knight"],
+      "company": "Nike",
+      "year": 2021
+    },
+    {
+      "title": "Bernard Arnault",
+      "url": "https://www.founderspodcast.com/episodes/bernard-arnault",
+      "leaders": ["Bernard Arnault"],
+      "company": "LVMH",
+      "year": 2023
+    },
+    {
+      "title": "Ray Kroc",
+      "url": "https://www.founderspodcast.com/episodes/ray-kroc",
+      "leaders": ["Ray Kroc"],
+      "company": "McDonald's",
+      "year": 2021
+    },
+    {
+      "title": "Akio Morita",
+      "url": "https://www.founderspodcast.com/episodes/akio-morita",
+      "leaders": ["Akio Morita"],
+      "company": "Sony",
+      "year": 2022
+    },
+    {
+      "title": "Warren Buffett",
+      "url": "https://www.founderspodcast.com/episodes/warren-buffett",
+      "leaders": ["Warren Buffett"],
+      "company": "Berkshire Hathaway",
+      "year": 2022
+    },
+    {
+      "title": "Charlie Munger",
+      "url": "https://www.founderspodcast.com/episodes/charlie-munger",
+      "leaders": ["Charlie Munger"],
+      "company": "Berkshire Hathaway",
+      "year": 2023
+    },
+    {
+      "title": "Larry Ellison",
+      "url": "https://www.founderspodcast.com/episodes/larry-ellison",
+      "leaders": ["Larry Ellison"],
+      "company": "Oracle",
+      "year": 2023
+    },
+    {
+      "title": "Elon Musk",
+      "url": "https://www.founderspodcast.com/episodes/elon-musk",
+      "leaders": ["Elon Musk"],
+      "company": "Tesla, SpaceX",
+      "year": 2023
+    },
+    {
+      "title": "Thomas Edison",
+      "url": "https://www.founderspodcast.com/episodes/thomas-edison",
+      "leaders": ["Thomas Edison"],
+      "company": "General Electric",
+      "year": 2021
+    },
+    {
+      "title": "Cornelius Vanderbilt",
+      "url": "https://www.founderspodcast.com/episodes/cornelius-vanderbilt",
+      "leaders": ["Cornelius Vanderbilt"],
+      "company": "New York Central Railroad",
+      "year": 2021
+    },
+    {
+      "title": "J.P. Morgan",
+      "url": "https://www.founderspodcast.com/episodes/jp-morgan",
+      "leaders": ["J.P. Morgan"],
+      "company": "J.P. Morgan & Co.",
+      "year": 2022
+    },
+    {
+      "title": "Howard Hughes",
+      "url": "https://www.founderspodcast.com/episodes/howard-hughes",
+      "leaders": ["Howard Hughes"],
+      "company": "Hughes Aircraft",
+      "year": 2022
+    },
+    {
+      "title": "Richard Branson",
+      "url": "https://www.founderspodcast.com/episodes/richard-branson",
+      "leaders": ["Richard Branson"],
+      "company": "Virgin Group",
+      "year": 2022
+    },
+    {
+      "title": "Ingvar Kamprad",
+      "url": "https://www.founderspodcast.com/episodes/ingvar-kamprad",
+      "leaders": ["Ingvar Kamprad"],
+      "company": "IKEA",
+      "year": 2022
+    },
+    {
+      "title": "Oprah Winfrey",
+      "url": "https://www.founderspodcast.com/episodes/oprah-winfrey",
+      "leaders": ["Oprah Winfrey"],
+      "company": "Harpo Productions",
+      "year": 2023
+    },
+    {
+      "title": "Sara Blakely",
+      "url": "https://www.founderspodcast.com/episodes/sara-blakely",
+      "leaders": ["Sara Blakely"],
+      "company": "Spanx",
+      "year": 2023
+    },
+    {
+      "title": "Ray Dalio",
+      "url": "https://www.founderspodcast.com/episodes/ray-dalio",
+      "leaders": ["Ray Dalio"],
+      "company": "Bridgewater Associates",
+      "year": 2022
+    },
+    {
+      "title": "Paul Graham",
+      "url": "https://www.founderspodcast.com/episodes/paul-graham",
+      "leaders": ["Paul Graham"],
+      "company": "Y Combinator",
+      "year": 2023
+    },
+    {
+      "title": "Marc Andreessen",
+      "url": "https://www.founderspodcast.com/episodes/marc-andreessen",
+      "leaders": ["Marc Andreessen"],
+      "company": "Andreessen Horowitz",
+      "year": 2023
+    },
+    {
+      "title": "Peter Thiel",
+      "url": "https://www.founderspodcast.com/episodes/peter-thiel",
+      "leaders": ["Peter Thiel"],
+      "company": "PayPal, Palantir",
+      "year": 2022
+    },
+    {
+      "title": "Masayoshi Son",
+      "url": "https://www.founderspodcast.com/episodes/masayoshi-son",
+      "leaders": ["Masayoshi Son"],
+      "company": "SoftBank",
+      "year": 2023
+    },
+    {
+      "title": "Reed Hastings",
+      "url": "https://www.founderspodcast.com/episodes/reed-hastings",
+      "leaders": ["Reed Hastings"],
+      "company": "Netflix",
+      "year": 2022
+    },
+    {
+      "title": "Howard Schultz",
+      "url": "https://www.founderspodcast.com/episodes/howard-schultz",
+      "leaders": ["Howard Schultz"],
+      "company": "Starbucks",
+      "year": 2022
+    },
+    {
+      "title": "Mary Kay Ash",
+      "url": "https://www.founderspodcast.com/episodes/mary-kay-ash",
+      "leaders": ["Mary Kay Ash"],
+      "company": "Mary Kay Cosmetics",
+      "year": 2023
+    },
+    {
+      "title": "Les Schwab",
+      "url": "https://www.founderspodcast.com/episodes/les-schwab",
+      "leaders": ["Les Schwab"],
+      "company": "Les Schwab Tire Centers",
+      "year": 2022
+    },
+    {
+      "title": "John Malone",
+      "url": "https://www.founderspodcast.com/episodes/john-malone",
+      "leaders": ["John Malone"],
+      "company": "Liberty Media",
+      "year": 2023
+    },
+    {
+      "title": "Rupert Murdoch",
+      "url": "https://www.founderspodcast.com/episodes/rupert-murdoch",
+      "leaders": ["Rupert Murdoch"],
+      "company": "News Corp",
+      "year": 2023
+    }
+  ]
+}

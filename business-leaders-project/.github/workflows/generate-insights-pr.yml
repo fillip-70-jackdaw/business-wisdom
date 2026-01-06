@@ -1,0 +1,75 @@
+name: Generate Insights PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of insights to generate'
+        required: false
+        default: '100'
+  schedule:
+    # Run weekly on Sunday at midnight UTC
+    - cron: '0 0 * * 0'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install ts-node
+        run: npm install -g ts-node typescript
+
+      - name: Resolve images for leaders
+        run: npx ts-node ingest/scripts/resolve_images.ts
+        continue-on-error: true
+
+      - name: Generate insights batch
+        run: npx ts-node ingest/scripts/generate_insights.ts
+
+      - name: Create branch name
+        id: branch
+        run: echo "name=insights/batch-$(date +%Y%m%d-%H%M%S)" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: Add new insights batch'
+          title: 'New Insights Batch - Review Required'
+          body: |
+            ## New Insights Batch
+
+            This PR contains a new batch of generated insights for review.
+
+            ### Files Changed
+            - `ingest/queue/insights_batch.json` - Generated insights (paraphrased principles)
+            - `ingest/queue/image_results.json` - Resolved leader images
+
+            ### Review Checklist
+            - [ ] Insights are properly paraphrased (not verbatim quotes)
+            - [ ] Source attributions are correct
+            - [ ] Topic tags are appropriate
+            - [ ] Leader images are loading correctly
+
+            ### After Merge
+            The sync workflow will automatically upload these insights to Supabase as drafts.
+          branch: ${{ steps.branch.outputs.name }}
+          delete-branch: true
+          labels: |
+            content
+            auto-generated

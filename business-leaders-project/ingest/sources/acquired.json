@@ -1,0 +1,217 @@
+{
+  "source": "acquired",
+  "description": "Acquired Podcast - deep dives into the greatest technology companies",
+  "base_url": "https://www.acquired.fm",
+  "episodes": [
+    {
+      "title": "NVIDIA",
+      "url": "https://www.acquired.fm/episodes/nvidia",
+      "leaders": ["Jensen Huang"],
+      "company": "NVIDIA",
+      "year": 2023
+    },
+    {
+      "title": "Costco",
+      "url": "https://www.acquired.fm/episodes/costco",
+      "leaders": ["Jim Sinegal", "Sol Price"],
+      "company": "Costco",
+      "year": 2023
+    },
+    {
+      "title": "Hermès",
+      "url": "https://www.acquired.fm/episodes/hermes",
+      "leaders": ["Jean-Louis Dumas", "Thierry Hermès"],
+      "company": "Hermès",
+      "year": 2023
+    },
+    {
+      "title": "Berkshire Hathaway",
+      "url": "https://www.acquired.fm/episodes/berkshire-hathaway",
+      "leaders": ["Warren Buffett", "Charlie Munger"],
+      "company": "Berkshire Hathaway",
+      "year": 2022
+    },
+    {
+      "title": "LVMH",
+      "url": "https://www.acquired.fm/episodes/lvmh",
+      "leaders": ["Bernard Arnault"],
+      "company": "LVMH",
+      "year": 2022
+    },
+    {
+      "title": "Amazon",
+      "url": "https://www.acquired.fm/episodes/amazon",
+      "leaders": ["Jeff Bezos"],
+      "company": "Amazon",
+      "year": 2021
+    },
+    {
+      "title": "Microsoft",
+      "url": "https://www.acquired.fm/episodes/microsoft",
+      "leaders": ["Bill Gates", "Satya Nadella"],
+      "company": "Microsoft",
+      "year": 2022
+    },
+    {
+      "title": "Visa",
+      "url": "https://www.acquired.fm/episodes/visa",
+      "leaders": ["Dee Hock"],
+      "company": "Visa",
+      "year": 2022
+    },
+    {
+      "title": "Lockheed Martin",
+      "url": "https://www.acquired.fm/episodes/lockheed-martin",
+      "leaders": ["Kelly Johnson", "Ben Rich"],
+      "company": "Lockheed Martin",
+      "year": 2023
+    },
+    {
+      "title": "Standard Oil",
+      "url": "https://www.acquired.fm/episodes/standard-oil",
+      "leaders": ["John D. Rockefeller"],
+      "company": "Standard Oil",
+      "year": 2022
+    },
+    {
+      "title": "Sony",
+      "url": "https://www.acquired.fm/episodes/sony",
+      "leaders": ["Akio Morita", "Masaru Ibuka"],
+      "company": "Sony",
+      "year": 2022
+    },
+    {
+      "title": "Nintendo",
+      "url": "https://www.acquired.fm/episodes/nintendo",
+      "leaders": ["Shigeru Miyamoto", "Satoru Iwata", "Hiroshi Yamauchi"],
+      "company": "Nintendo",
+      "year": 2022
+    },
+    {
+      "title": "Porsche",
+      "url": "https://www.acquired.fm/episodes/porsche",
+      "leaders": ["Ferdinand Porsche", "Ferry Porsche"],
+      "company": "Porsche",
+      "year": 2023
+    },
+    {
+      "title": "Ferrari",
+      "url": "https://www.acquired.fm/episodes/ferrari",
+      "leaders": ["Enzo Ferrari"],
+      "company": "Ferrari",
+      "year": 2023
+    },
+    {
+      "title": "Walmart",
+      "url": "https://www.acquired.fm/episodes/walmart",
+      "leaders": ["Sam Walton"],
+      "company": "Walmart",
+      "year": 2022
+    },
+    {
+      "title": "Tesla",
+      "url": "https://www.acquired.fm/episodes/tesla",
+      "leaders": ["Elon Musk"],
+      "company": "Tesla",
+      "year": 2023
+    },
+    {
+      "title": "SpaceX",
+      "url": "https://www.acquired.fm/episodes/spacex",
+      "leaders": ["Elon Musk", "Gwynne Shotwell"],
+      "company": "SpaceX",
+      "year": 2023
+    },
+    {
+      "title": "Disney",
+      "url": "https://www.acquired.fm/episodes/disney",
+      "leaders": ["Walt Disney", "Bob Iger"],
+      "company": "Disney",
+      "year": 2022
+    },
+    {
+      "title": "Pixar",
+      "url": "https://www.acquired.fm/episodes/pixar",
+      "leaders": ["Ed Catmull", "John Lasseter", "Steve Jobs"],
+      "company": "Pixar",
+      "year": 2021
+    },
+    {
+      "title": "Nike",
+      "url": "https://www.acquired.fm/episodes/nike",
+      "leaders": ["Phil Knight", "Bill Bowerman"],
+      "company": "Nike",
+      "year": 2022
+    },
+    {
+      "title": "Sequoia Capital",
+      "url": "https://www.acquired.fm/episodes/sequoia-capital",
+      "leaders": ["Don Valentine", "Michael Moritz", "Doug Leone"],
+      "company": "Sequoia Capital",
+      "year": 2023
+    },
+    {
+      "title": "Benchmark",
+      "url": "https://www.acquired.fm/episodes/benchmark",
+      "leaders": ["Bill Gurley", "Andy Rachleff"],
+      "company": "Benchmark",
+      "year": 2023
+    },
+    {
+      "title": "Airbnb",
+      "url": "https://www.acquired.fm/episodes/airbnb",
+      "leaders": ["Brian Chesky", "Joe Gebbia", "Nathan Blecharczyk"],
+      "company": "Airbnb",
+      "year": 2022
+    },
+    {
+      "title": "Stripe",
+      "url": "https://www.acquired.fm/episodes/stripe",
+      "leaders": ["Patrick Collison", "John Collison"],
+      "company": "Stripe",
+      "year": 2022
+    },
+    {
+      "title": "Uber",
+      "url": "https://www.acquired.fm/episodes/uber",
+      "leaders": ["Travis Kalanick", "Dara Khosrowshahi"],
+      "company": "Uber",
+      "year": 2021
+    },
+    {
+      "title": "Google",
+      "url": "https://www.acquired.fm/episodes/google",
+      "leaders": ["Larry Page", "Sergey Brin", "Eric Schmidt"],
+      "company": "Google",
+      "year": 2021
+    },
+    {
+      "title": "Facebook/Meta",
+      "url": "https://www.acquired.fm/episodes/facebook",
+      "leaders": ["Mark Zuckerberg", "Sheryl Sandberg"],
+      "company": "Meta",
+      "year": 2022
+    },
+    {
+      "title": "Apple",
+      "url": "https://www.acquired.fm/episodes/apple",
+      "leaders": ["Steve Jobs", "Tim Cook", "Jony Ive"],
+      "company": "Apple",
+      "year": 2022
+    },
+    {
+      "title": "Intel",
+      "url": "https://www.acquired.fm/episodes/intel",
+      "leaders": ["Andy Grove", "Gordon Moore", "Robert Noyce"],
+      "company": "Intel",
+      "year": 2022
+    },
+    {
+      "title": "TSMC",
+      "url": "https://www.acquired.fm/episodes/tsmc",
+      "leaders": ["Morris Chang"],
+      "company": "TSMC",
+      "year": 2023
+    }
+  ]
+}
