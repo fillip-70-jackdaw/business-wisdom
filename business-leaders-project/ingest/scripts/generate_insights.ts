@@ -711,7 +711,7 @@ const SAMPLE_INSIGHTS: InsightProposal[] = [
   {
     leader_slug: "howard-schultz",
     text: "Success is not sustainable if it's defined by how big you become. Large-scale success is only possible when you maintain small-company values.",
-    topic_tags: ["culture", "growth", "values"],
+    topic_tags: ["culture", "growth", "integrity"],
     type: "principle",
     source_title: "Founders Podcast: Howard Schultz",
     source_url: "https://www.founderspodcast.com/episodes/howard-schultz",
