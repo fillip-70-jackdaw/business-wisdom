@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install ts-node
-        run: npm install -g ts-node typescript
+      - name: Install tsx
+        run: npm install -g tsx
 
       - name: Check for queue files
         id: check
@@ -47,7 +47,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
-        run: npx ts-node ingest/scripts/sync_to_supabase.ts
+        run: npx tsx ingest/scripts/sync_to_supabase.ts
 
       - name: Report results
         if: steps.check.outputs.has_insights == 'true'

@@ -36,15 +36,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install ts-node
-        run: npm install -g ts-node typescript
+      - name: Install tsx
+        run: npm install -g tsx
 
       - name: Resolve images for leaders
-        run: npx ts-node ingest/scripts/resolve_images.ts
+        run: npx tsx ingest/scripts/resolve_images.ts
         continue-on-error: true
 
       - name: Generate insights batch
-        run: npx ts-node ingest/scripts/generate_insights.ts
+        run: npx tsx ingest/scripts/generate_insights.ts
 
       - name: Create branch name
         id: branch
