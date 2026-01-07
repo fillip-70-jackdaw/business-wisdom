@@ -1,0 +1,521 @@
+{
+  "generated_at": "2026-01-07T17:55:40.004Z",
+  "stats": {
+    "total": 73,
+    "wikipedia_images": 56,
+    "fallback_avatars": 17
+  },
+  "results": {
+    "walt-disney": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Walt_Disney_1946_%28cropped2%29.JPG/450px-Walt_Disney_1946_%28cropped2%29.JPG",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
+      "photo_license": "Public domain",
+      "photo_attribution": "Boy Scouts of America",
+      "verified": true
+    },
+    "steve-jobs": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/500px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Matthew Yohe (talk)",
+      "verified": true
+    },
+    "henry-ford": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Henry_Ford_portrait_1915_original_%283x4_cropped%29.png/500px-Henry_Ford_portrait_1915_original_%283x4_cropped%29.png",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Henry_Ford_portrait_1915_original_(3x4_cropped).png",
+      "photo_license": "Public domain",
+      "photo_attribution": "Ford Motor Company. Photographic Department",
+      "verified": true
+    },
+    "andrew-carnegie": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913_%28cropped%29_%282%29.jpg/500px-Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913_%28cropped%29_%282%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_three-quarter_length_portrait,_seated,_facing_slightly_left,_1913_(cropped)_(2).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Theodore C. Marceau",
+      "verified": true
+    },
+    "john-d-rockefeller": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Portrait_of_J._D._Rockefeller.jpg/500px-Portrait_of_J._D._Rockefeller.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Portrait_of_J._D._Rockefeller.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Published by Scientific American Compiling Dep't, New York. 1907.",
+      "verified": true
+    },
+    "estee-lauder": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNiwgNDElLCAzNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzYsIDIwJSwgODUlKSI+CiAgICAgICAgRUwKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "sam-walton": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sam_Walton_%281992_2%29.jpg/500px-Sam_Walton_%281992_2%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sam_Walton_(1992_2).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Photo credit:  George Bush Presidential Library and Museum",
+      "verified": true
+    },
+    "jeff-bezos": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg/500px-Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_visits_LAAFB_SMC_(3908618)_(cropped).jpeg",
+      "photo_license": "Public domain",
+      "photo_attribution": "U.S. Space Force image by Van Ha",
+      "verified": true
+    },
+    "enzo-ferrari": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Enzo_Ferrari_Monza_1967.jpg/500px-Enzo_Ferrari_Monza_1967.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Enzo_Ferrari_Monza_1967.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Rainer W. Schlegelmilch",
+      "verified": true
+    },
+    "coco-chanel": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMiwgMzclLCAyNyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzIsIDIwJSwgODUlKSI+CiAgICAgICAgQ0MKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "edwin-land": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MywgNDglLCAyOCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDMsIDIwJSwgODUlKSI+CiAgICAgICAgRUwKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "soichiro-honda": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzOSwgNDQlLCAyOSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzksIDIwJSwgODUlKSI+CiAgICAgICAgU0gKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "james-dyson": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sir_James_Dyson_CBE_FREng_FRS.jpg/500px-Sir_James_Dyson_CBE_FREng_FRS.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sir_James_Dyson_CBE_FREng_FRS.jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Royal Society uploader",
+      "verified": true
+    },
+    "phil-knight": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Phil_Knight_with_Tom_Matthyssens_in_Universal_Studios_Orlando_1999_%28cropped%29.jpg/500px-Phil_Knight_with_Tom_Matthyssens_in_Universal_Studios_Orlando_1999_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Phil_Knight_with_Tom_Matthyssens_in_Universal_Studios_Orlando_1999_(cropped).jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Tom Matthyssens",
+      "verified": true
+    },
+    "bernard-arnault": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bernard_Arnault_%283%29_-_2017_%28cropped%29.jpg/500px-Bernard_Arnault_%283%29_-_2017_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bernard_Arnault_(3)_-_2017_(cropped).jpg",
+      "photo_license": "CC BY-SA 2.0",
+      "photo_attribution": "Jérémy Barande",
+      "verified": true
+    },
+    "ray-kroc": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ray_kroc_1976.jpg/500px-Ray_kroc_1976.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ray_kroc_1976.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Unknown authorUnknown author",
+      "verified": true
+    },
+    "akio-morita": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Morita_Akio.jpg/500px-Morita_Akio.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Morita_Akio.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "プレジデント社　撮影者不明",
+      "verified": true
+    },
+    "warren-buffett": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/500px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_(cropped).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "USA International Trade Administration",
+      "verified": true
+    },
+    "charlie-munger": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Charlie_Munger_%28cropped%29.jpg/477px-Charlie_Munger_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Charlie_Munger_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Nick",
+      "verified": true
+    },
+    "larry-ellison": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Larry_Ellison_picture.png/500px-Larry_Ellison_picture.png",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_picture.png",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Oracle PR Hartmann Studios",
+      "verified": true
+    },
+    "elon-musk": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/500px-Elon_Musk_-_54820081119_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(cropped).jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Gage Skidmore",
+      "verified": true
+    },
+    "thomas-edison": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Thomas_Edison2.jpg/500px-Thomas_Edison2.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+      "verified": true
+    },
+    "cornelius-vanderbilt": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cornelius_Vanderbilt_Daguerrotype2.jpg/500px-Cornelius_Vanderbilt_Daguerrotype2.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Cornelius_Vanderbilt_Daguerrotype2.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Produced by Mathew Brady's studio, restored by Michel Vuijlsteke",
+      "verified": true
+    },
+    "jp-morgan": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNSwgNDAlLCAzMCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzUsIDIwJSwgODUlKSI+CiAgICAgICAgSk0KICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "howard-hughes": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Howard_Hughes_1938.jpg/483px-Howard_Hughes_1938.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Howard_Hughes_1938.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Acme Newspictures",
+      "verified": true
+    },
+    "richard-branson": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_%2821783214958%29_%28cropped%29.jpg/500px-Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_%2821783214958%29_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Richard_Branson_Addresses_the_Our_Ocean_Conference_2015_in_Valpara%C3%ADso_(21783214958)_(cropped).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "U.S. Department of State from United States",
+      "verified": true
+    },
+    "ingvar-kamprad": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Ingvar_Kamprad_Haparanda_June_2010.jpg/468px-Ingvar_Kamprad_Haparanda_June_2010.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Ministry of Enterprise, Energy and Communications of Sweden/Sandra Baqirjazid",
+      "verified": true
+    },
+    "oprah-winfrey": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Oprah_Winfrey_2016.jpg/500px-Oprah_Winfrey_2016.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "US Embassy  South Africa",
+      "verified": true
+    },
+    "sara-blakely": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sara_Blakely.jpg/500px-Sara_Blakely.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sara_Blakely.jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Gillian Zoe Segal",
+      "verified": true
+    },
+    "ray-dalio": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Web_Summit_2018_-_Forum_-_Day_2%2C_November_7_HM1_7481_%2844858045925%29.jpg/500px-Web_Summit_2018_-_Forum_-_Day_2%2C_November_7_HM1_7481_%2844858045925%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Web_Summit_2018_-_Forum_-_Day_2,_November_7_HM1_7481_(44858045925).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Web Summit",
+      "verified": true
+    },
+    "paul-graham": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMSwgMzYlLCAzMSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzEsIDIwJSwgODUlKSI+CiAgICAgICAgUEcKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "marc-andreessen": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Marc_Andreessen-9_%28cropped%29.jpg/500px-Marc_Andreessen-9_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Marc_Andreessen-9_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "JD Lasica",
+      "verified": true
+    },
+    "peter-thiel": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Peter_Thiel_by_Gage_Skidmore.jpg/500px-Peter_Thiel_by_Gage_Skidmore.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Gage Skidmore",
+      "verified": true
+    },
+    "masayoshi-son": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Masayoshi_Son_%28P066533-522034%2C_cropped%29.jpg/500px-Masayoshi_Son_%28P066533-522034%2C_cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Masayoshi_Son_(P066533-522034,_cropped).jpg",
+      "photo_license": "CC BY 4.0",
+      "photo_attribution": "European Communities, 2025 / EC - Audiovisual Service",
+      "verified": true
+    },
+    "reed-hastings": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Re_publica_2015_-_Tag_1_%2817381870955%29_%28cropped%29.jpg/500px-Re_publica_2015_-_Tag_1_%2817381870955%29_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Re_publica_2015_-_Tag_1_(17381870955)_(cropped).jpg",
+      "photo_license": "CC BY-SA 2.0",
+      "photo_attribution": "re:publica from Germany",
+      "verified": true
+    },
+    "howard-schultz": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Howard_Schultz_by_Gage_Skidmore.jpg/500px-Howard_Schultz_by_Gage_Skidmore.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Howard_Schultz_by_Gage_Skidmore.jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Gage Skidmore",
+      "verified": true
+    },
+    "mary-kay-ash": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/MaryKay.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:MaryKay.jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "LizaKoz",
+      "verified": true
+    },
+    "les-schwab": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgyOSwgMzQlLCAzNCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMjksIDIwJSwgODUlKSI+CiAgICAgICAgTFMKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "john-malone": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MCwgNDUlLCAyNSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDAsIDIwJSwgODUlKSI+CiAgICAgICAgSk0KICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "rupert-murdoch": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Rupert_Murdoch_-_Flickr_-_Eva_Rinaldi_Celebrity_and_Live_Music_Photographer.jpg/500px-Rupert_Murdoch_-_Flickr_-_Eva_Rinaldi_Celebrity_and_Live_Music_Photographer.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_Flickr_-_Eva_Rinaldi_Celebrity_and_Live_Music_Photographer.jpg",
+      "photo_license": "CC BY-SA 2.0",
+      "photo_attribution": "Eva Rinaldi",
+      "verified": true
+    },
+    "jensen-huang": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Jen-Hsun_Huang_2025.jpg/500px-Jen-Hsun_Huang_2025.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Jen-Hsun_Huang_2025.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "The White House",
+      "verified": true
+    },
+    "jim-sinegal": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMiwgMzclLCAzMiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzIsIDIwJSwgODUlKSI+CiAgICAgICAgSlMKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "sol-price": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzOCwgNDMlLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzgsIDIwJSwgODUlKSI+CiAgICAgICAgU1AKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "bill-gates": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg/500px-Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_(cropped).jpg",
+      "photo_license": "CC BY 4.0",
+      "photo_attribution": "Bogdan Hoyaux / European Union",
+      "verified": true
+    },
+    "satya-nadella": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/500px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Brian Smale and Microsoft",
+      "verified": true
+    },
+    "dee-hock": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNiwgNDElLCAyNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzYsIDIwJSwgODUlKSI+CiAgICAgICAgREgKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "kelly-johnson": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgyNSwgMzAlLCAzMCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMjUsIDIwJSwgODUlKSI+CiAgICAgICAgS0oKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "masaru-ibuka": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ibuka_Masaru_at_Sony.png",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ibuka_Masaru_at_Sony.png",
+      "photo_license": "CC0",
+      "photo_attribution": "Graham1250",
+      "verified": true
+    },
+    "shigeru-miyamoto": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shigeru_Miyamoto_20150610_%28cropped%29.jpg/500px-Shigeru_Miyamoto_20150610_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610_(cropped).jpg",
+      "photo_license": "CC BY 4.0",
+      "photo_attribution": "Minister's Secretariat Personnel Division",
+      "verified": true
+    },
+    "satoru-iwata": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Satoru_Iwata_-_Game_Developers_Conference_2011_-_Day_2_%281%29.jpg/500px-Satoru_Iwata_-_Game_Developers_Conference_2011_-_Day_2_%281%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Satoru_Iwata_-_Game_Developers_Conference_2011_-_Day_2_(1).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Official GDC",
+      "verified": true
+    },
+    "hiroshi-yamauchi": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MCwgNDUlLCAyNSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDAsIDIwJSwgODUlKSI+CiAgICAgICAgSFkKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "ferdinand-porsche": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Bundesarchiv_Bild_183-2005-1017-525%2C_Dr._Ferdinand_Porsche.jpg/500px-Bundesarchiv_Bild_183-2005-1017-525%2C_Dr._Ferdinand_Porsche.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-2005-1017-525,_Dr._Ferdinand_Porsche.jpg",
+      "photo_license": "CC BY-SA 3.0 de",
+      "photo_attribution": "\nUnknown authorUnknown author",
+      "verified": true
+    },
+    "ferry-porsche": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MSwgNDYlLCAyNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDEsIDIwJSwgODUlKSI+CiAgICAgICAgRlAKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "bob-iger": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2022_Bob_Iger_%28cropped%29.jpg/482px-2022_Bob_Iger_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:2022_Bob_Iger_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Village Global",
+      "verified": true
+    },
+    "ed-catmull": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgyOCwgMzMlLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMjgsIDIwJSwgODUlKSI+CiAgICAgICAgRUMKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "bill-bowerman": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMSwgMzYlLCAyNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzEsIDIwJSwgODUlKSI+CiAgICAgICAgQkIKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "don-valentine": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Don_Valentine_in_2009.jpg/500px-Don_Valentine_in_2009.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Don_Valentine_in_2009.jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Steve Jurvetson from Menlo Park, USA",
+      "verified": true
+    },
+    "michael-moritz": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Michael_Moritz_2013.jpg/500px-Michael_Moritz_2013.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Michael_Moritz_2013.jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "TechCrunch",
+      "verified": true
+    },
+    "bill-gurley": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Bill_Gurley%2C_2013.jpg/500px-Bill_Gurley%2C_2013.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Gurley,_2013.jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "TechCrunch",
+      "verified": true
+    },
+    "brian-chesky": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Brian_Chesky_2025.jpg/500px-Brian_Chesky_2025.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Brian_Chesky_2025.jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "Celeste Sloman",
+      "verified": true
+    },
+    "patrick-collison": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Patrick_Collison_%28cropped%29.jpg/500px-Patrick_Collison_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Patrick_Collison_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "JD Lasica",
+      "verified": true
+    },
+    "john-collison": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sportsfile_%28Web_Summit%29_%2815088695584%29.jpg/500px-Sportsfile_%28Web_Summit%29_%2815088695584%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sportsfile_(Web_Summit)_(15088695584).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Web Summit",
+      "verified": true
+    },
+    "travis-kalanick": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/The_CEO%2C_UBER%2C_Mr._Travis_Kalanick_meeting_the_Union_Minister_for_Electronics_%26_Information_Technology_and_Law_%26_Justice%2C_Shri_Ravi_Shankar_Prasad%2C_in_New_Delhi_on_December_15%2C_2016_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:The_CEO,_UBER,_Mr._Travis_Kalanick_meeting_the_Union_Minister_for_Electronics_%26_Information_Technology_and_Law_%26_Justice,_Shri_Ravi_Shankar_Prasad,_in_New_Delhi_on_December_15,_2016_(cropped).jpg",
+      "photo_license": "GODL-India",
+      "photo_attribution": "Ministry of Communications\n",
+      "verified": true
+    },
+    "larry-page": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg/500px-Larry_Page_in_the_European_Parliament%2C_17.06.2009_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped).jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Stansfield PL",
+      "verified": true
+    },
+    "sergey-brin": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Sergey_Brin_Ted_2010_%28cropped%29.jpg/500px-Sergey_Brin_Ted_2010_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sergey_Brin_Ted_2010_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Steve Jurvetson",
+      "verified": true
+    },
+    "mark-zuckerberg": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/F20250904AH-2824_%2854778373111%29_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:F20250904AH-2824_(54778373111)_(cropped).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "The White House",
+      "verified": true
+    },
+    "tim-cook": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_%28cropped%29.jpg/500px-P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_(cropped).jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "The White House",
+      "verified": true
+    },
+    "jony-ive": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Jonathan_Ive_%28OTRS%29.jpg/500px-Jonathan_Ive_%28OTRS%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Jonathan_Ive_(OTRS).jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Marcus Dawes\nhttp://www.marcusdawes.com\n\nmarcus@marcusdawes.com",
+      "verified": true
+    },
+    "andy-grove": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgyOCwgMzMlLCAzOCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMjgsIDIwJSwgODUlKSI+CiAgICAgICAgQUcKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "gordon-moore": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Gordon_Moore_1978_%28cropped%29.png",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_1978_(cropped).png",
+      "photo_license": "CC BY-SA 2.0",
+      "photo_attribution": "Intel Free Press",
+      "verified": true
+    },
+    "robert-noyce": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Robert_Noyce_with_Motherboard_1959.png/500px-Robert_Noyce_with_Motherboard_1959.png",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png",
+      "photo_license": "CC BY-SA 2.0",
+      "photo_attribution": "Intel Free Press",
+      "verified": true
+    },
+    "morris-chang": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/11.21_2020_APEC%E6%9A%A8%E7%B6%93%E6%BF%9F%E9%A0%98%E8%A2%96%E6%9C%83%E8%AD%B0%E6%9C%83%E5%BE%8C%E8%A8%98%E8%80%85%E6%9C%83_%2850628253717%29_%28cropped2%29.jpg/500px-11.21_2020_APEC%E6%9A%A8%E7%B6%93%E6%BF%9F%E9%A0%98%E8%A2%96%E6%9C%83%E8%AD%B0%E6%9C%83%E5%BE%8C%E8%A8%98%E8%80%85%E6%9C%83_%2850628253717%29_%28cropped2%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:11.21_2020_APEC%E6%9A%A8%E7%B6%93%E6%BF%9F%E9%A0%98%E8%A2%96%E6%9C%83%E8%AD%B0%E6%9C%83%E5%BE%8C%E8%A8%98%E8%80%85%E6%9C%83_(50628253717)_(cropped2).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "總統府",
+      "verified": true
+    },
+    "gwynne-shotwell": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Gwynne_Shotwell_at_2018_Commercial_Crew_announcement.jpg/500px-Gwynne_Shotwell_at_2018_Commercial_Crew_announcement.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Gwynne_Shotwell_at_2018_Commercial_Crew_announcement.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Bill Ingalls",
+      "verified": true
+    }
+  }
+}
