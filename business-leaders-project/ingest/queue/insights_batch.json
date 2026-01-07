@@ -1,33 +1,83 @@
 {
-  "generated_at": "2026-01-06T21:45:46.960Z",
-  "batch_id": "batch_1767735946960",
+  "generated_at": "2026-01-07T17:55:40.827Z",
+  "batch_id": "batch_1767808540828",
   "stats": {
-    "total_insights": 70,
-    "unique_leaders": 23,
+    "total_insights": 208,
+    "unique_leaders": 73,
     "insights_per_leader": {
-      "steve-jobs": 5,
-      "jeff-bezos": 5,
-      "warren-buffett": 5,
-      "charlie-munger": 4,
-      "sam-walton": 4,
-      "walt-disney": 4,
-      "elon-musk": 4,
-      "jensen-huang": 3,
-      "andrew-carnegie": 3,
-      "phil-knight": 3,
+      "steve-jobs": 7,
+      "jeff-bezos": 7,
+      "warren-buffett": 6,
+      "charlie-munger": 5,
+      "sam-walton": 5,
+      "walt-disney": 5,
+      "elon-musk": 5,
+      "jensen-huang": 4,
+      "andrew-carnegie": 4,
+      "phil-knight": 4,
       "bernard-arnault": 3,
-      "brian-chesky": 2,
-      "patrick-collison": 2,
-      "ray-dalio": 2,
-      "henry-ford": 3,
-      "john-d-rockefeller": 3,
+      "brian-chesky": 3,
+      "patrick-collison": 3,
+      "ray-dalio": 3,
+      "henry-ford": 4,
+      "john-d-rockefeller": 4,
       "oprah-winfrey": 3,
       "marc-andreessen": 2,
-      "peter-thiel": 2,
-      "andy-grove": 2,
-      "howard-schultz": 2,
-      "bill-gates": 2,
-      "larry-page": 2
+      "peter-thiel": 3,
+      "andy-grove": 3,
+      "howard-schultz": 3,
+      "bill-gates": 3,
+      "larry-page": 3,
+      "ray-kroc": 3,
+      "soichiro-honda": 2,
+      "akio-morita": 2,
+      "ed-catmull": 3,
+      "bob-iger": 3,
+      "reed-hastings": 3,
+      "richard-branson": 3,
+      "ingvar-kamprad": 3,
+      "estee-lauder": 3,
+      "coco-chanel": 3,
+      "enzo-ferrari": 3,
+      "james-dyson": 3,
+      "edwin-land": 3,
+      "thomas-edison": 3,
+      "cornelius-vanderbilt": 2,
+      "jp-morgan": 3,
+      "mary-kay-ash": 3,
+      "sara-blakely": 3,
+      "paul-graham": 3,
+      "don-valentine": 3,
+      "bill-gurley": 2,
+      "masayoshi-son": 2,
+      "satya-nadella": 3,
+      "tim-cook": 2,
+      "jony-ive": 2,
+      "travis-kalanick": 2,
+      "mark-zuckerberg": 3,
+      "sergey-brin": 2,
+      "gordon-moore": 2,
+      "robert-noyce": 1,
+      "morris-chang": 2,
+      "les-schwab": 2,
+      "jim-sinegal": 2,
+      "sol-price": 2,
+      "john-malone": 2,
+      "dee-hock": 2,
+      "kelly-johnson": 2,
+      "satoru-iwata": 2,
+      "shigeru-miyamoto": 2,
+      "hiroshi-yamauchi": 2,
+      "ferry-porsche": 2,
+      "ferdinand-porsche": 1,
+      "bill-bowerman": 2,
+      "larry-ellison": 3,
+      "howard-hughes": 1,
+      "masaru-ibuka": 2,
+      "gwynne-shotwell": 2,
+      "rupert-murdoch": 2,
+      "michael-moritz": 2,
+      "john-collison": 1
     }
   },
   "insights": [
@@ -40,9 +90,9 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Steve Jobs",
-      "source_url": "https://www.founderspodcast.com/episodes/steve-jobs",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -54,9 +104,9 @@
         "product"
       ],
       "type": "principle",
-      "source_title": "Acquired: Amazon",
-      "source_url": "https://www.acquired.fm/episodes/amazon",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -68,9 +118,9 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Acquired: Berkshire Hathaway",
-      "source_url": "https://www.acquired.fm/episodes/berkshire-hathaway",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -82,9 +132,9 @@
         "simplicity"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Steve Jobs",
-      "source_url": "https://www.founderspodcast.com/episodes/steve-jobs",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -96,9 +146,9 @@
         "competition"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Jeff Bezos",
-      "source_url": "https://www.founderspodcast.com/episodes/jeff-bezos",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -110,9 +160,9 @@
         "decision-making"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Warren Buffett",
-      "source_url": "https://www.founderspodcast.com/episodes/warren-buffett",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -124,9 +174,9 @@
         "simplicity"
       ],
       "type": "principle",
-      "source_title": "Acquired: Apple",
-      "source_url": "https://www.acquired.fm/episodes/apple",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -138,9 +188,9 @@
         "execution"
       ],
       "type": "framework",
-      "source_title": "Acquired: Amazon",
-      "source_url": "https://www.acquired.fm/episodes/amazon",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -152,9 +202,9 @@
         "quality"
       ],
       "type": "principle",
-      "source_title": "Acquired: Berkshire Hathaway",
-      "source_url": "https://www.acquired.fm/episodes/berkshire-hathaway",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -166,9 +216,9 @@
         "quality"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Steve Jobs",
-      "source_url": "https://www.founderspodcast.com/episodes/steve-jobs",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -180,9 +230,9 @@
         "long-term-thinking"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Jeff Bezos",
-      "source_url": "https://www.founderspodcast.com/episodes/jeff-bezos",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -194,9 +244,9 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Warren Buffett",
-      "source_url": "https://www.founderspodcast.com/episodes/warren-buffett",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -208,9 +258,9 @@
         "leadership"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Steve Jobs",
-      "source_url": "https://www.founderspodcast.com/episodes/steve-jobs",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -222,9 +272,9 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Acquired: Amazon",
-      "source_url": "https://www.acquired.fm/episodes/amazon",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -236,9 +286,79 @@
         "leadership"
       ],
       "type": "principle",
-      "source_title": "Acquired: Berkshire Hathaway",
-      "source_url": "https://www.acquired.fm/episodes/berkshire-hathaway",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "steve-jobs",
+      "text": "Stay hungry, stay foolish. The moment you feel satisfied is the moment you stop pushing boundaries.",
+      "topic_tags": [
+        "growth",
+        "motivation",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jeff-bezos",
+      "text": "Your brand is what people say about you when you're not in the room. Obsess over the customer experience, not the marketing message.",
+      "topic_tags": [
+        "branding",
+        "customer-obsession",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "warren-buffett",
+      "text": "Price is what you pay, value is what you get. The skill is knowing the difference.",
+      "topic_tags": [
+        "decision-making",
+        "strategy",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "steve-jobs",
+      "text": "Innovation distinguishes between a leader and a follower. If you're not creating, you're imitating.",
+      "topic_tags": [
+        "innovation",
+        "leadership",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jeff-bezos",
+      "text": "If you double the number of experiments you run per year, you'll double your inventiveness. Failure is the tuition you pay for success.",
+      "topic_tags": [
+        "innovation",
+        "failure",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -250,8 +370,8 @@
         "learning"
       ],
       "type": "framework",
-      "source_title": "Founders Podcast: Charlie Munger",
-      "source_url": "https://www.founderspodcast.com/episodes/charlie-munger",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -264,9 +384,9 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Sam Walton",
-      "source_url": "https://www.founderspodcast.com/episodes/sam-walton",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -278,8 +398,8 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Walt Disney",
-      "source_url": "https://www.founderspodcast.com/episodes/walt-disney",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -292,9 +412,9 @@
         "long-term-thinking"
       ],
       "type": "principle",
-      "source_title": "Acquired: Berkshire Hathaway",
-      "source_url": "https://www.acquired.fm/episodes/berkshire-hathaway",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -306,9 +426,9 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Acquired: Walmart",
-      "source_url": "https://www.acquired.fm/episodes/walmart",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -320,9 +440,9 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Acquired: Disney",
-      "source_url": "https://www.acquired.fm/episodes/disney",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -334,8 +454,8 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Charlie Munger",
-      "source_url": "https://www.founderspodcast.com/episodes/charlie-munger",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -348,9 +468,9 @@
         "customer-obsession"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Sam Walton",
-      "source_url": "https://www.founderspodcast.com/episodes/sam-walton",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -362,8 +482,8 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Walt Disney",
-      "source_url": "https://www.founderspodcast.com/episodes/walt-disney",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -376,9 +496,9 @@
         "strategy"
       ],
       "type": "principle",
-      "source_title": "Acquired: Berkshire Hathaway",
-      "source_url": "https://www.acquired.fm/episodes/berkshire-hathaway",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -390,9 +510,9 @@
         "learning"
       ],
       "type": "principle",
-      "source_title": "Acquired: Walmart",
-      "source_url": "https://www.acquired.fm/episodes/walmart",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -404,9 +524,51 @@
         "branding"
       ],
       "type": "principle",
-      "source_title": "Acquired: Disney",
-      "source_url": "https://www.acquired.fm/episodes/disney",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "charlie-munger",
+      "text": "Knowing what you don't know is more useful than being brilliant. Intellectual humility is a superpower.",
+      "topic_tags": [
+        "learning",
+        "decision-making",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sam-walton",
+      "text": "Swim upstream. Go the other way. Ignore conventional wisdom if it doesn't make sense.",
+      "topic_tags": [
+        "innovation",
+        "competition",
+        "decision-making"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "walt-disney",
+      "text": "Disneyland will never be completed. It will continue to grow as long as there is imagination left in the world.",
+      "topic_tags": [
+        "vision",
+        "innovation",
+        "long-term-thinking"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -418,8 +580,8 @@
         "vision"
       ],
       "type": "principle",
-      "source_title": "Acquired: Tesla",
-      "source_url": "https://www.acquired.fm/episodes/tesla",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -432,8 +594,8 @@
         "speed"
       ],
       "type": "principle",
-      "source_title": "Acquired: NVIDIA",
-      "source_url": "https://www.acquired.fm/episodes/nvidia",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -446,9 +608,9 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Andrew Carnegie",
-      "source_url": "https://www.founderspodcast.com/episodes/andrew-carnegie",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -460,8 +622,8 @@
         "competition"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Elon Musk",
-      "source_url": "https://www.founderspodcast.com/episodes/elon-musk",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -474,8 +636,8 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Acquired: NVIDIA",
-      "source_url": "https://www.acquired.fm/episodes/nvidia",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -488,9 +650,9 @@
         "competition"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Andrew Carnegie",
-      "source_url": "https://www.founderspodcast.com/episodes/andrew-carnegie",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -502,8 +664,8 @@
         "learning"
       ],
       "type": "framework",
-      "source_title": "Acquired: SpaceX",
-      "source_url": "https://www.acquired.fm/episodes/spacex",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -516,8 +678,8 @@
         "innovation"
       ],
       "type": "principle",
-      "source_title": "Acquired: NVIDIA",
-      "source_url": "https://www.acquired.fm/episodes/nvidia",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -530,9 +692,9 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Andrew Carnegie",
-      "source_url": "https://www.founderspodcast.com/episodes/andrew-carnegie",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -544,8 +706,50 @@
         "product"
       ],
       "type": "principle",
-      "source_title": "Acquired: Tesla",
-      "source_url": "https://www.acquired.fm/episodes/tesla",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jensen-huang",
+      "text": "Intellectual honesty is the foundation of great engineering. You can't solve problems you won't admit exist.",
+      "topic_tags": [
+        "culture",
+        "learning",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "andrew-carnegie",
+      "text": "Surround yourself with people smarter than you. No one ever made a fortune doing everything themselves.",
+      "topic_tags": [
+        "hiring",
+        "leadership",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "elon-musk",
+      "text": "Constantly think about how you could be doing things better. Keep questioning yourself.",
+      "topic_tags": [
+        "learning",
+        "innovation",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -558,9 +762,9 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Phil Knight",
-      "source_url": "https://www.founderspodcast.com/episodes/phil-knight",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -572,9 +776,9 @@
         "branding"
       ],
       "type": "principle",
-      "source_title": "Acquired: LVMH",
-      "source_url": "https://www.acquired.fm/episodes/lvmh",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -586,9 +790,9 @@
         "growth"
       ],
       "type": "principle",
-      "source_title": "Acquired: Airbnb",
-      "source_url": "https://www.acquired.fm/episodes/airbnb",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -600,9 +804,9 @@
         "culture"
       ],
       "type": "principle",
-      "source_title": "Acquired: Nike",
-      "source_url": "https://www.acquired.fm/episodes/nike",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -614,8 +818,8 @@
         "long-term-thinking"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Bernard Arnault",
-      "source_url": "https://www.founderspodcast.com/episodes/bernard-arnault",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -628,9 +832,9 @@
         "quality"
       ],
       "type": "framework",
-      "source_title": "Acquired: Airbnb",
-      "source_url": "https://www.acquired.fm/episodes/airbnb",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -642,9 +846,9 @@
         "failure"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Phil Knight",
-      "source_url": "https://www.founderspodcast.com/episodes/phil-knight",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -656,9 +860,37 @@
         "culture"
       ],
       "type": "principle",
-      "source_title": "Acquired: LVMH",
-      "source_url": "https://www.acquired.fm/episodes/lvmh",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "brian-chesky",
+      "text": "Do things that don't scale. Handcraft your early customer experiences to understand what perfection looks like.",
+      "topic_tags": [
+        "customer-obsession",
+        "growth",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "phil-knight",
+      "text": "Play by the rules, but be ferocious. You can be ethical and still crush the competition.",
+      "topic_tags": [
+        "competition",
+        "integrity",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -670,9 +902,9 @@
         "learning"
       ],
       "type": "principle",
-      "source_title": "Acquired: Stripe",
-      "source_url": "https://www.acquired.fm/episodes/stripe",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -684,9 +916,9 @@
         "success"
       ],
       "type": "framework",
-      "source_title": "Founders Podcast: Ray Dalio",
-      "source_url": "https://www.founderspodcast.com/episodes/ray-dalio",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -698,9 +930,9 @@
         "motivation"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Henry Ford",
-      "source_url": "https://www.founderspodcast.com/episodes/henry-ford",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -712,9 +944,9 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Acquired: Stripe",
-      "source_url": "https://www.acquired.fm/episodes/stripe",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -726,9 +958,9 @@
         "leadership"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Ray Dalio",
-      "source_url": "https://www.founderspodcast.com/episodes/ray-dalio",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -740,36 +972,36 @@
         "persistence"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Henry Ford",
-      "source_url": "https://www.founderspodcast.com/episodes/henry-ford",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
-      "leader_slug": "john-d-rockefeller",
-      "text": "Don't be afraid to give up the good to go for the great. Good enough is the enemy of excellence.",
+      "leader_slug": "patrick-collison",
+      "text": "Make it easy to do business with you. Remove friction at every possible step.",
       "topic_tags": [
-        "focus",
-        "quality",
-        "success"
+        "customer-obsession",
+        "product",
+        "simplicity"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: John D. Rockefeller",
-      "source_url": "https://www.founderspodcast.com/episodes/john-d-rockefeller",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
-      "leader_slug": "oprah-winfrey",
-      "text": "Turn your wounds into wisdom. Every difficulty you face is teaching you something you need to know.",
+      "leader_slug": "ray-dalio",
+      "text": "Principles are ways of successfully dealing with reality to get what you want out of life. Without them, you're reacting, not acting.",
       "topic_tags": [
-        "failure",
+        "decision-making",
         "learning",
-        "success"
+        "strategy"
       ],
-      "type": "principle",
-      "source_title": "Founders Podcast: Oprah Winfrey",
-      "source_url": "https://www.founderspodcast.com/episodes/oprah-winfrey",
+      "type": "framework",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -782,9 +1014,50 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Henry Ford",
-      "source_url": "https://www.founderspodcast.com/episodes/henry-ford",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "john-d-rockefeller",
+      "text": "Don't be afraid to give up the good to go for the great. Good enough is the enemy of excellence.",
+      "topic_tags": [
+        "focus",
+        "quality",
+        "success"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "oprah-winfrey",
+      "text": "Turn your wounds into wisdom. Every difficulty you face is teaching you something you need to know.",
+      "topic_tags": [
+        "failure",
+        "learning",
+        "success"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "henry-ford",
+      "text": "Don't find fault, find a remedy. Anybody can complain—builders find solutions.",
+      "topic_tags": [
+        "execution",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -796,9 +1069,9 @@
         "competition"
       ],
       "type": "principle",
-      "source_title": "Acquired: Standard Oil",
-      "source_url": "https://www.acquired.fm/episodes/standard-oil",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -810,8 +1083,8 @@
         "quality"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Oprah Winfrey",
-      "source_url": "https://www.founderspodcast.com/episodes/oprah-winfrey",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -824,8 +1097,8 @@
         "execution"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Marc Andreessen",
-      "source_url": "https://www.founderspodcast.com/episodes/marc-andreessen",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -838,9 +1111,9 @@
         "communication"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: John D. Rockefeller",
-      "source_url": "https://www.founderspodcast.com/episodes/john-d-rockefeller",
-      "source_year": 2021,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -852,8 +1125,8 @@
         "motivation"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Oprah Winfrey",
-      "source_url": "https://www.founderspodcast.com/episodes/oprah-winfrey",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -866,8 +1139,22 @@
         "leadership"
       ],
       "type": "framework",
-      "source_title": "Founders Podcast: Marc Andreessen",
-      "source_url": "https://www.founderspodcast.com/episodes/marc-andreessen",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "john-d-rockefeller",
+      "text": "Singleness of purpose is one of the chief essentials for success in life. Decide what you want and pursue it relentlessly.",
+      "topic_tags": [
+        "focus",
+        "persistence",
+        "success"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
       "source_year": 2023,
       "confidence": "paraphrased"
     },
@@ -880,9 +1167,9 @@
         "moats"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Peter Thiel",
-      "source_url": "https://www.founderspodcast.com/episodes/peter-thiel",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -894,9 +1181,9 @@
         "strategy"
       ],
       "type": "principle",
-      "source_title": "Acquired: Intel",
-      "source_url": "https://www.acquired.fm/episodes/intel",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -908,9 +1195,9 @@
         "leadership"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Howard Schultz",
-      "source_url": "https://www.founderspodcast.com/episodes/howard-schultz",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -922,9 +1209,9 @@
         "vision"
       ],
       "type": "framework",
-      "source_title": "Founders Podcast: Peter Thiel",
-      "source_url": "https://www.founderspodcast.com/episodes/peter-thiel",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -936,9 +1223,9 @@
         "decision-making"
       ],
       "type": "framework",
-      "source_title": "Acquired: Intel",
-      "source_url": "https://www.acquired.fm/episodes/intel",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -950,9 +1237,51 @@
         "integrity"
       ],
       "type": "principle",
-      "source_title": "Founders Podcast: Howard Schultz",
-      "source_url": "https://www.founderspodcast.com/episodes/howard-schultz",
-      "source_year": 2022,
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "peter-thiel",
+      "text": "Every moment in business happens only once. The next Bill Gates will not build an operating system. The next Larry Page won't make a search engine.",
+      "topic_tags": [
+        "innovation",
+        "vision",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "andy-grove",
+      "text": "Bad companies are destroyed by crisis. Good companies survive them. Great companies are improved by them.",
+      "topic_tags": [
+        "failure",
+        "leadership",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "howard-schultz",
+      "text": "The currency of leadership is transparency. You have to be truthful. You cannot hide behind complexity.",
+      "topic_tags": [
+        "leadership",
+        "communication",
+        "integrity"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -964,9 +1293,9 @@
         "vision"
       ],
       "type": "principle",
-      "source_title": "Acquired: Microsoft",
-      "source_url": "https://www.acquired.fm/episodes/microsoft",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -978,9 +1307,23 @@
         "risk"
       ],
       "type": "principle",
-      "source_title": "Acquired: Google",
-      "source_url": "https://www.acquired.fm/episodes/google",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ray-kroc",
+      "text": "The quality of a leader is reflected in the standards they set for themselves. Set impossible standards, then figure out how to meet them.",
+      "topic_tags": [
+        "leadership",
+        "quality",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -992,9 +1335,9 @@
         "success"
       ],
       "type": "principle",
-      "source_title": "Acquired: Microsoft",
-      "source_url": "https://www.acquired.fm/episodes/microsoft",
-      "source_year": 2022,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
       "confidence": "paraphrased"
     },
     {
@@ -1006,9 +1349,1642 @@
         "risk"
       ],
       "type": "principle",
-      "source_title": "Acquired: Google",
-      "source_url": "https://www.acquired.fm/episodes/google",
-      "source_year": 2021,
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ray-kroc",
+      "text": "Luck is a dividend of sweat. The more you sweat, the luckier you get.",
+      "topic_tags": [
+        "work-ethic",
+        "success",
+        "persistence"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bill-gates",
+      "text": "Your most unhappy customers are your greatest source of learning. Complaints reveal your blind spots.",
+      "topic_tags": [
+        "customer-obsession",
+        "learning",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "larry-page",
+      "text": "Lots of companies don't succeed over time. They do the wrong things at the wrong time. They focus on protecting what they have instead of building what's next.",
+      "topic_tags": [
+        "innovation",
+        "strategy",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ray-kroc",
+      "text": "None of us is as good as all of us. Franchisees, suppliers, and the company must all win together.",
+      "topic_tags": [
+        "partnerships",
+        "leadership",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "soichiro-honda",
+      "text": "Success represents the 1% of your work that results from 99% that is called failure. Keep experimenting.",
+      "topic_tags": [
+        "failure",
+        "persistence",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "akio-morita",
+      "text": "The key to success for Sony is never to follow the others. We must make products that are not currently being made by anyone else.",
+      "topic_tags": [
+        "innovation",
+        "product",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ed-catmull",
+      "text": "If you want to be original, you have to accept uncertainty. New ideas are fragile; protect them from premature criticism.",
+      "topic_tags": [
+        "innovation",
+        "culture",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "soichiro-honda",
+      "text": "If the government won't let us race, we'll race anyway. Sometimes you have to break the rules that don't make sense.",
+      "topic_tags": [
+        "persistence",
+        "competition",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "akio-morita",
+      "text": "Curiosity is the key to creativity. The day you lose your curiosity is the day you stop creating.",
+      "topic_tags": [
+        "innovation",
+        "learning",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ed-catmull",
+      "text": "Getting the team right is the necessary precursor to getting the ideas right. Ideas come from people, so people come first.",
+      "topic_tags": [
+        "hiring",
+        "culture",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bob-iger",
+      "text": "The heart and soul of a company is creativity and innovation. Protect the creators and the creations will follow.",
+      "topic_tags": [
+        "innovation",
+        "culture",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "reed-hastings",
+      "text": "Most companies have complex rules to prevent the bottom 3% from causing damage. We fire that 3% and let everyone else operate with freedom.",
+      "topic_tags": [
+        "culture",
+        "hiring",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ed-catmull",
+      "text": "Quality is the best business plan. Period. Everything else—marketing, distribution, partnerships—amplifies quality or exposes the lack of it.",
+      "topic_tags": [
+        "quality",
+        "product",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bob-iger",
+      "text": "Take big swings. Don't make small bets. If you're going to bet, bet big on things that matter.",
+      "topic_tags": [
+        "risk",
+        "strategy",
+        "decision-making"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "reed-hastings",
+      "text": "Adequate performance gets a generous severance package. We're a team, not a family—we need stars at every position.",
+      "topic_tags": [
+        "hiring",
+        "culture",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "richard-branson",
+      "text": "Screw it, let's do it. If somebody offers you an amazing opportunity and you're not sure you can do it, say yes—then learn how to do it later.",
+      "topic_tags": [
+        "risk",
+        "execution",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bob-iger",
+      "text": "Optimism is a kind of pragmatism. If you believe things can get better, you'll look for ways to make them better.",
+      "topic_tags": [
+        "leadership",
+        "vision",
+        "culture"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "reed-hastings",
+      "text": "Don't tolerate brilliant jerks. The cost to teamwork is too high.",
+      "topic_tags": [
+        "culture",
+        "hiring",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "richard-branson",
+      "text": "Train people well enough so they can leave. Treat them well enough so they don't want to.",
+      "topic_tags": [
+        "leadership",
+        "culture",
+        "hiring"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ingvar-kamprad",
+      "text": "Time is your most important resource. Use it for things that actually matter—and waste none of it on things that don't.",
+      "topic_tags": [
+        "focus",
+        "frugality",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "estee-lauder",
+      "text": "I didn't get there by wishing for it or hoping for it, but by working for it. There are no shortcuts to success.",
+      "topic_tags": [
+        "work-ethic",
+        "persistence",
+        "success"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "richard-branson",
+      "text": "Business opportunities are like buses; there's always another one coming. But the best ones don't wait.",
+      "topic_tags": [
+        "risk",
+        "speed",
+        "decision-making"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ingvar-kamprad",
+      "text": "Expensive solutions to problems are usually created by people who don't have enough ideas. Constraints breed creativity.",
+      "topic_tags": [
+        "frugality",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "estee-lauder",
+      "text": "Touch your customer and you're halfway there. Nothing replaces the human connection in selling.",
+      "topic_tags": [
+        "customer-obsession",
+        "sales",
+        "communication"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "coco-chanel",
+      "text": "In order to be irreplaceable, one must always be different. Sameness is the enemy of significance.",
+      "topic_tags": [
+        "branding",
+        "innovation",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ingvar-kamprad",
+      "text": "The true IKEA spirit is founded on enthusiasm, renewal, thrift, responsibility, and humility. Fancy offices and titles don't make products better.",
+      "topic_tags": [
+        "culture",
+        "frugality",
+        "integrity"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "estee-lauder",
+      "text": "If you don't sell, it's not the product that's wrong, it's you. Believe in what you're selling.",
+      "topic_tags": [
+        "sales",
+        "persistence",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "coco-chanel",
+      "text": "Simplicity is the keynote of all true elegance. Strip away the unnecessary until only the essential remains.",
+      "topic_tags": [
+        "simplicity",
+        "quality",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "enzo-ferrari",
+      "text": "I build engines and attach wheels to them. Everything else is secondary to the machine's soul.",
+      "topic_tags": [
+        "product",
+        "focus",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "james-dyson",
+      "text": "I made 5,127 prototypes of my vacuum before I got it right. There were 5,126 failures, but I learned from each one.",
+      "topic_tags": [
+        "failure",
+        "persistence",
+        "learning"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "coco-chanel",
+      "text": "Fashion fades, only style remains. Build for permanence, not trends.",
+      "topic_tags": [
+        "branding",
+        "long-term-thinking",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "enzo-ferrari",
+      "text": "The client is not always right. When it comes to the product, the creator knows best.",
+      "topic_tags": [
+        "product",
+        "quality",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "james-dyson",
+      "text": "Enjoy failure and learn from it. You can never learn from success.",
+      "topic_tags": [
+        "failure",
+        "learning",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "edwin-land",
+      "text": "If anything is worth doing, it's worth doing to excess. Half-measures accomplish nothing.",
+      "topic_tags": [
+        "work-ethic",
+        "quality",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "enzo-ferrari",
+      "text": "Racing is a great mania to which one must sacrifice everything, without reticence, without hesitation.",
+      "topic_tags": [
+        "focus",
+        "persistence",
+        "work-ethic"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "james-dyson",
+      "text": "We're designers and engineers, not marketers. Make something that works better and people will buy it.",
+      "topic_tags": [
+        "product",
+        "innovation",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "edwin-land",
+      "text": "The essential part of creativity is not being afraid to fail. Innovation requires the freedom to experiment.",
+      "topic_tags": [
+        "innovation",
+        "failure",
+        "culture"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "thomas-edison",
+      "text": "I have not failed. I've just found 10,000 ways that won't work. Each failure is progress.",
+      "topic_tags": [
+        "failure",
+        "persistence",
+        "learning"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "cornelius-vanderbilt",
+      "text": "You have undertaken to ruin me. I won't sue you—the law takes too long. I'll ruin you.",
+      "topic_tags": [
+        "competition",
+        "execution",
+        "persistence"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "edwin-land",
+      "text": "Marketing is what you do when your product is no good. Build something great and it markets itself.",
+      "topic_tags": [
+        "product",
+        "quality",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "thomas-edison",
+      "text": "Genius is one percent inspiration and ninety-nine percent perspiration. Ideas without execution are worthless.",
+      "topic_tags": [
+        "work-ethic",
+        "execution",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "cornelius-vanderbilt",
+      "text": "Never tell anyone what you're going to do until you've done it. Let results speak.",
+      "topic_tags": [
+        "execution",
+        "strategy",
+        "communication"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jp-morgan",
+      "text": "Go as far as you can see; when you get there, you'll be able to see further. Just take the next step.",
+      "topic_tags": [
+        "vision",
+        "execution",
+        "persistence"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "thomas-edison",
+      "text": "Vision without execution is hallucination. Stop dreaming and start building.",
+      "topic_tags": [
+        "execution",
+        "vision",
+        "speed"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mary-kay-ash",
+      "text": "Pretend that every single person you meet has a sign around their neck that says 'Make me feel important.'",
+      "topic_tags": [
+        "leadership",
+        "communication",
+        "customer-obsession"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jp-morgan",
+      "text": "A man always has two reasons for doing anything: a good reason and the real reason. Understand both.",
+      "topic_tags": [
+        "decision-making",
+        "leadership",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sara-blakely",
+      "text": "Don't be intimidated by what you don't know. That can be your greatest strength. Fresh eyes see what experts miss.",
+      "topic_tags": [
+        "innovation",
+        "learning",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mary-kay-ash",
+      "text": "A mediocre idea that generates enthusiasm will go further than a great idea that inspires no one.",
+      "topic_tags": [
+        "leadership",
+        "culture",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jp-morgan",
+      "text": "I would rather hire a man with enthusiasm than a man who knows everything. Attitude trumps aptitude.",
+      "topic_tags": [
+        "hiring",
+        "culture",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sara-blakely",
+      "text": "My dad used to encourage me to fail. 'What did you fail at this week?' Failure meant I was trying new things.",
+      "topic_tags": [
+        "failure",
+        "learning",
+        "culture"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mary-kay-ash",
+      "text": "People fail forward to success. Embrace every failure as a step closer to winning.",
+      "topic_tags": [
+        "failure",
+        "persistence",
+        "success"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "paul-graham",
+      "text": "Make something people want. Nothing else matters if you don't have that foundation.",
+      "topic_tags": [
+        "product",
+        "customer-obsession",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sara-blakely",
+      "text": "Trust your gut. When something feels right but everyone says no, that's often the biggest opportunity.",
+      "topic_tags": [
+        "decision-making",
+        "risk",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "don-valentine",
+      "text": "The art of investing is really the art of having better judgment than other people. Do your homework.",
+      "topic_tags": [
+        "decision-making",
+        "learning",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "paul-graham",
+      "text": "Startups usually win by building something so good that people tell their friends. That's organic growth.",
+      "topic_tags": [
+        "product",
+        "growth",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bill-gurley",
+      "text": "All great companies got there by being aggressive in uncertain markets. Playing it safe is the riskiest strategy.",
+      "topic_tags": [
+        "risk",
+        "strategy",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "don-valentine",
+      "text": "Target big markets. I'd rather back a great team in a big market than a perfect team in a small one.",
+      "topic_tags": [
+        "strategy",
+        "vision",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "paul-graham",
+      "text": "Do things that don't scale. Recruit users manually. Give them amazing service. Then figure out how to automate.",
+      "topic_tags": [
+        "growth",
+        "customer-obsession",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bill-gurley",
+      "text": "The best businesses are ones where the customer wins even more than the company does.",
+      "topic_tags": [
+        "customer-obsession",
+        "strategy",
+        "long-term-thinking"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "don-valentine",
+      "text": "Great companies are built by missionaries, not mercenaries. Passion outlasts profit motive.",
+      "topic_tags": [
+        "culture",
+        "hiring",
+        "persistence"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "masayoshi-son",
+      "text": "I'm not investing in the present. I'm investing in what the world will look like in 30 years.",
+      "topic_tags": [
+        "vision",
+        "long-term-thinking",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "satya-nadella",
+      "text": "The learn-it-all will always beat the know-it-all. Curiosity and humility win over arrogance.",
+      "topic_tags": [
+        "learning",
+        "culture",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "tim-cook",
+      "text": "We're not in the business of making commodity products. We're here to make the best products, regardless of market share.",
+      "topic_tags": [
+        "quality",
+        "product",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "masayoshi-son",
+      "text": "In 300 years, people will look back and say this was when humanity changed. Think on that timescale.",
+      "topic_tags": [
+        "vision",
+        "long-term-thinking",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "satya-nadella",
+      "text": "Our industry doesn't respect tradition. It only respects innovation. What we did yesterday doesn't matter.",
+      "topic_tags": [
+        "innovation",
+        "competition",
+        "disruption"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "tim-cook",
+      "text": "Some people see innovation as change. We see it as making things better. There's a difference.",
+      "topic_tags": [
+        "innovation",
+        "quality",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jony-ive",
+      "text": "True simplicity is not the absence of clutter. It's the presence of order. That's much harder to achieve.",
+      "topic_tags": [
+        "simplicity",
+        "product",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "satya-nadella",
+      "text": "Empathy makes you a better innovator. Understanding others' unmet needs reveals opportunities.",
+      "topic_tags": [
+        "customer-obsession",
+        "innovation",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "travis-kalanick",
+      "text": "Stand for something. If you don't have enemies, you don't have a point of view.",
+      "topic_tags": [
+        "leadership",
+        "competition",
+        "vision"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jony-ive",
+      "text": "Details aren't details. They make the product. Every element you add or remove changes everything.",
+      "topic_tags": [
+        "quality",
+        "product",
+        "focus"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mark-zuckerberg",
+      "text": "In a world that's changing really quickly, the only strategy guaranteed to fail is not taking risks.",
+      "topic_tags": [
+        "risk",
+        "strategy",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "travis-kalanick",
+      "text": "Principle fighting is the hardest kind of fighting. When you believe in something, you'll find a way.",
+      "topic_tags": [
+        "persistence",
+        "execution",
+        "vision"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sergey-brin",
+      "text": "We don't have as many managers as we should, but we'd rather have too few than too many. Bureaucracy kills speed.",
+      "topic_tags": [
+        "culture",
+        "speed",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mark-zuckerberg",
+      "text": "Move fast and break things. Unless you're breaking stuff, you're not moving fast enough.",
+      "topic_tags": [
+        "speed",
+        "innovation",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "gordon-moore",
+      "text": "With engineering, I view this as doing more with less—making things smaller and more efficient.",
+      "topic_tags": [
+        "innovation",
+        "simplicity",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sergey-brin",
+      "text": "Obviously everyone wants to be successful, but I want to be looked back on as being very innovative, and very trusted.",
+      "topic_tags": [
+        "integrity",
+        "innovation",
+        "long-term-thinking"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "mark-zuckerberg",
+      "text": "The biggest risk is not taking any risk. In a rapidly changing world, standing still is falling behind.",
+      "topic_tags": [
+        "risk",
+        "innovation",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "gordon-moore",
+      "text": "If everything you try works, you're not trying hard enough. Push into the unknown.",
+      "topic_tags": [
+        "failure",
+        "innovation",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "robert-noyce",
+      "text": "Don't be encumbered by history. Go off and do something wonderful.",
+      "topic_tags": [
+        "innovation",
+        "vision",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "morris-chang",
+      "text": "Integrity is the most important value. Without it, nothing else matters.",
+      "topic_tags": [
+        "integrity",
+        "leadership",
+        "culture"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "les-schwab",
+      "text": "Free beef is the best advertising. Exceed expectations and customers become evangelists.",
+      "topic_tags": [
+        "customer-obsession",
+        "quality",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jim-sinegal",
+      "text": "If you treat employees well, they treat customers well. It's that simple.",
+      "topic_tags": [
+        "culture",
+        "customer-obsession",
+        "leadership"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "morris-chang",
+      "text": "The semiconductor business requires patient capital and long-term thinking. Quick profits destroy innovation.",
+      "topic_tags": [
+        "long-term-thinking",
+        "strategy",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "les-schwab",
+      "text": "Profit-sharing makes everyone think like an owner. When your team wins, share the winnings.",
+      "topic_tags": [
+        "culture",
+        "leadership",
+        "partnerships"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "jim-sinegal",
+      "text": "Don't raise prices just because you can. Low prices build loyalty that lasts decades.",
+      "topic_tags": [
+        "customer-obsession",
+        "long-term-thinking",
+        "integrity"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sol-price",
+      "text": "Limit your selection, turn your inventory fast, and keep your costs low. Complexity is the enemy of profits.",
+      "topic_tags": [
+        "simplicity",
+        "strategy",
+        "execution"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "john-malone",
+      "text": "Avoid taxes, build scale, leverage relationships. Capital allocation is the whole game.",
+      "topic_tags": [
+        "strategy",
+        "long-term-thinking",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "dee-hock",
+      "text": "Control is not leadership; management is not leadership. Leadership is influence and inspiration.",
+      "topic_tags": [
+        "leadership",
+        "culture",
+        "communication"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "sol-price",
+      "text": "Members are everything. Treat them right and they'll be customers for life.",
+      "topic_tags": [
+        "customer-obsession",
+        "long-term-thinking"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "john-malone",
+      "text": "The deal is more important than the business. Structure determines outcome.",
+      "topic_tags": [
+        "strategy",
+        "decision-making",
+        "partnerships"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "dee-hock",
+      "text": "The problem is never how to get new, innovative thoughts into your mind, but how to get the old ones out.",
+      "topic_tags": [
+        "learning",
+        "innovation",
+        "decision-making"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "kelly-johnson",
+      "text": "Be quick, be quiet, be on time. Skunk Works succeeds because we eliminate bureaucracy.",
+      "topic_tags": [
+        "speed",
+        "execution",
+        "culture"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "satoru-iwata",
+      "text": "On my business card, I am a corporate president. In my mind, I am a game developer. In my heart, I am a gamer.",
+      "topic_tags": [
+        "product",
+        "customer-obsession"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "shigeru-miyamoto",
+      "text": "A delayed game is eventually good, but a rushed game is forever bad. Quality takes time.",
+      "topic_tags": [
+        "quality",
+        "product",
+        "long-term-thinking"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "kelly-johnson",
+      "text": "The best design is the simplest one that works. Complexity is a tax on every operation.",
+      "topic_tags": [
+        "simplicity",
+        "product",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "satoru-iwata",
+      "text": "Above all, video games are meant to just be one thing: fun. Fun for everyone.",
+      "topic_tags": [
+        "product",
+        "simplicity",
+        "customer-obsession"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "shigeru-miyamoto",
+      "text": "What if everything you see is more than what you see? The person next to you is a warrior.",
+      "topic_tags": [
+        "vision",
+        "innovation",
+        "product"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "hiroshi-yamauchi",
+      "text": "Content is king. Hardware without great software is just expensive furniture.",
+      "topic_tags": [
+        "product",
+        "strategy",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ferry-porsche",
+      "text": "I couldn't find the sports car of my dreams, so I built it myself. Necessity is the mother of invention.",
+      "topic_tags": [
+        "product",
+        "innovation",
+        "persistence"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ferdinand-porsche",
+      "text": "In the beginning, I looked around and could not find the car I dreamed of. So I decided to build it myself.",
+      "topic_tags": [
+        "innovation",
+        "product",
+        "vision"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "hiroshi-yamauchi",
+      "text": "We are not in competition with Sony or Microsoft. We are in competition with indifference.",
+      "topic_tags": [
+        "competition",
+        "customer-obsession",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "ferry-porsche",
+      "text": "Committees design camels. Great cars are designed by individuals with vision.",
+      "topic_tags": [
+        "product",
+        "simplicity",
+        "decision-making"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bill-bowerman",
+      "text": "If you have a body, you are an athlete. Our purpose is to serve every athlete in the world.",
+      "topic_tags": [
+        "vision",
+        "customer-obsession",
+        "branding"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "larry-ellison",
+      "text": "When I started Oracle, I had no money and I had no reputation. What I did have was conviction.",
+      "topic_tags": [
+        "persistence",
+        "vision",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "howard-hughes",
+      "text": "I want to be remembered as someone who pushed the limits of what was possible.",
+      "topic_tags": [
+        "innovation",
+        "vision",
+        "risk"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "bill-bowerman",
+      "text": "The real purpose of running isn't to win a race. It's to test the limits of the human heart.",
+      "topic_tags": [
+        "vision",
+        "quality"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "larry-ellison",
+      "text": "The most important aspect of my personality is my curiosity. I'm curious about everything.",
+      "topic_tags": [
+        "learning",
+        "innovation",
+        "growth"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "masaru-ibuka",
+      "text": "Sony is not merely a business. It is a creative institution with a soul.",
+      "topic_tags": [
+        "culture",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "gwynne-shotwell",
+      "text": "SpaceX is about pushing boundaries and doing the impossible. That's what gets us up every morning.",
+      "topic_tags": [
+        "vision",
+        "persistence",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "larry-ellison",
+      "text": "I have never accepted that defeat is permanent. Every setback is temporary if you keep fighting.",
+      "topic_tags": [
+        "persistence",
+        "competition",
+        "failure"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "masaru-ibuka",
+      "text": "Create products that no one else has made. Being first is more important than being best.",
+      "topic_tags": [
+        "innovation",
+        "speed",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "gwynne-shotwell",
+      "text": "Execution matters more than strategy. A good plan violently executed beats a perfect plan every time.",
+      "topic_tags": [
+        "execution",
+        "speed",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "rupert-murdoch",
+      "text": "The world is changing very fast. Big will not beat small anymore. It will be the fast beating the slow.",
+      "topic_tags": [
+        "speed",
+        "disruption",
+        "competition"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "michael-moritz",
+      "text": "The best founders combine healthy paranoia with relentless optimism. They see both danger and opportunity.",
+      "topic_tags": [
+        "leadership",
+        "risk",
+        "vision"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "john-collison",
+      "text": "The internet is still young. We're building infrastructure that will last for decades.",
+      "topic_tags": [
+        "vision",
+        "long-term-thinking",
+        "innovation"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "rupert-murdoch",
+      "text": "Monopoly is a terrible thing, until you have it. Then it's quite nice.",
+      "topic_tags": [
+        "competition",
+        "moats",
+        "strategy"
+      ],
+      "type": "principle",
+      "source_title": "Acquired",
+      "source_url": "https://www.acquired.fm",
+      "source_year": 2023,
+      "confidence": "paraphrased"
+    },
+    {
+      "leader_slug": "michael-moritz",
+      "text": "Stories are more important than spreadsheets. The best investments start with a compelling narrative.",
+      "topic_tags": [
+        "communication",
+        "strategy",
+        "vision"
+      ],
+      "type": "principle",
+      "source_title": "Founders Podcast",
+      "source_url": "https://www.founderspodcast.com",
+      "source_year": 2023,
       "confidence": "paraphrased"
     }
   ]
