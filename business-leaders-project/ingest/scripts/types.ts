@@ -91,7 +91,7 @@ export interface InsightProposal {
   leader_slug: string;
   text: string;
   topic_tags: TopicTag[];
-  type: "principle" | "framework" | "story";
+  type: "principle" | "framework" | "story" | "quote";
   source_title: string;
   source_url: string;
   source_year?: number;

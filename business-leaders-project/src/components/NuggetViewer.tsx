@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import type { NuggetWithLeader } from "@/lib/supabase/types";
@@ -16,6 +16,92 @@ interface NuggetViewerProps {
   totalCount: number;
 }
 
+interface SideNavZoneProps {
+  side: "left" | "right";
+  onClick: () => void;
+  disabled: boolean;
+  label: string;
+}
+
+function SideNavZone({ side, onClick, disabled, label }: SideNavZoneProps) {
+  const [isHovered, setIsHovered] = useState(false);
+  const [isPressed, setIsPressed] = useState(false);
+
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      if (!disabled) onClick();
+    }
+  }, [disabled, onClick]);
+
+  if (disabled) return null;
+
+  return (
+    <button
+      onClick={onClick}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => { setIsHovered(false); setIsPressed(false); }}
+      onMouseDown={() => setIsPressed(true)}
+      onMouseUp={() => setIsPressed(false)}
+      onKeyDown={handleKeyDown}
+      disabled={disabled}
+      aria-label={label}
+      className={`
+        absolute top-1/2 -translate-y-1/2 z-20
+        ${side === "left" ? "-left-8 md:-left-16" : "-right-8 md:-right-16"}
+        w-16 md:w-24
+        h-[70%]
+        flex items-center justify-center
+        cursor-pointer
+        focus:outline-none
+        focus-visible:ring-2 focus-visible:ring-[var(--tan)] focus-visible:ring-opacity-50 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--library-bg)]
+        transition-all duration-200
+        touch-none
+        hidden md:flex
+      `}
+      style={{
+        background: "transparent",
+      }}
+    >
+      {/* Subtle glow on hover */}
+      <div
+        className="absolute inset-0 rounded-2xl transition-opacity duration-250 ease-out pointer-events-none"
+        style={{
+          opacity: isHovered ? 0.6 : 0,
+          background: `radial-gradient(ellipse 80% 60% at ${side === "left" ? "70%" : "30%"} 50%, rgba(182, 139, 76, 0.15) 0%, transparent 70%)`,
+        }}
+      />
+
+      {/* Arrow icon */}
+      <motion.div
+        animate={{
+          opacity: isHovered ? 0.85 : 0.08,
+          scale: isPressed ? 0.94 : isHovered ? 1.04 : 1,
+        }}
+        transition={{
+          duration: 0.2,
+          ease: "easeOut",
+        }}
+        className="relative z-10"
+      >
+        <svg
+          className="w-6 h-6 text-[var(--tan)]"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          strokeWidth={1.5}
+        >
+          {side === "left" ? (
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+          ) : (
+            <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+          )}
+        </svg>
+      </motion.div>
+    </button>
+  );
+}
+
 function PeekCard({ nugget, side }: { nugget: NuggetWithLeader | null; side: "left" | "right" }) {
   if (!nugget) return null;
 
@@ -23,7 +109,7 @@ function PeekCard({ nugget, side }: { nugget: NuggetWithLeader | null; side: "le
 
   return (
     <div
-      className={`absolute top-1/2 -translate-y-1/2 ${side === "left" ? "left-0" : "right-0"} ${offset} w-[320px] pointer-events-none`}
+      className={`absolute top-1/2 -translate-y-1/2 ${side === "left" ? "left-0" : "right-0"} ${offset} w-[320px] pointer-events-none hidden lg:block`}
     >
       <div
         className="rounded-2xl border border-[var(--border)] p-6 opacity-20 scale-[0.88] blur-[2px]"
@@ -116,7 +202,7 @@ export function NuggetViewer({
 
   return (
     <div className="w-full max-w-[720px] mx-auto px-4">
-      {/* Card container with peek panels */}
+      {/* Card container with side navigation */}
       <div className="relative flex items-center justify-center">
         {/* Soft radial glow behind card */}
         <div
@@ -132,6 +218,40 @@ export function NuggetViewer({
         {/* Right peek panel */}
         <PeekCard nugget={nextNugget} side="right" />
 
+        {/* Left side navigation zone */}
+        <SideNavZone
+          side="left"
+          onClick={handlePrev}
+          disabled={currentIndex === 0}
+          label="Previous insight"
+        />
+
+        {/* Right side navigation zone */}
+        <SideNavZone
+          side="right"
+          onClick={handleNext}
+          disabled={currentIndex === nuggets.length - 1}
+          label="Next insight"
+        />
+
+        {/* Mobile edge tap zones (touch devices only) */}
+        {currentIndex > 0 && (
+          <button
+            onClick={handlePrev}
+            className="absolute left-0 top-0 bottom-0 w-12 z-30 md:hidden"
+            aria-label="Previous insight"
+            style={{ background: "transparent" }}
+          />
+        )}
+        {currentIndex < nuggets.length - 1 && (
+          <button
+            onClick={handleNext}
+            className="absolute right-0 top-0 bottom-0 w-12 z-30 md:hidden"
+            aria-label="Next insight"
+            style={{ background: "transparent" }}
+          />
+        )}
+
         {/* Main Card - The Artifact */}
         <AnimatePresence mode="wait" custom={direction}>
           <motion.div
@@ -141,12 +261,23 @@ export function NuggetViewer({
             initial="enter"
             animate="center"
             exit="exit"
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.15}
+            onDragEnd={(_, info) => {
+              const swipeThreshold = 50;
+              if (info.offset.x > swipeThreshold && currentIndex > 0) {
+                handlePrev();
+              } else if (info.offset.x < -swipeThreshold && currentIndex < nuggets.length - 1) {
+                handleNext();
+              }
+            }}
             transition={{
               x: { type: "tween", duration: 0.35, ease: [0.25, 0.1, 0.25, 1] },
               opacity: { duration: 0.3 },
               scale: { duration: 0.35, ease: [0.25, 0.1, 0.25, 1] },
             }}
-            className="relative z-10 w-full rounded-3xl border border-[rgba(216,179,124,0.18)] p-10 md:p-12"
+            className="relative z-10 w-full rounded-3xl border border-[rgba(216,179,124,0.18)] p-10 md:p-12 cursor-grab active:cursor-grabbing touch-pan-y"
             style={{
               /*
                * Card kept darker than background for squint-test separation
@@ -255,48 +386,17 @@ export function NuggetViewer({
         </AnimatePresence>
       </div>
 
-      {/* Navigation */}
-      <div className="flex items-center justify-center gap-5 mt-6">
-        {/* Prev Button */}
-        <motion.button
-          onClick={handlePrev}
-          disabled={currentIndex === 0}
-          whileHover={{ scale: 1.06 }}
-          whileTap={{ scale: 0.96 }}
-          className="w-11 h-11 flex items-center justify-center rounded-full border border-[rgba(216,179,124,0.2)] bg-[rgba(255,238,214,0.04)] transition-all duration-200 hover:border-[var(--brass)] hover:shadow-[0_0_16px_rgba(182,139,76,0.18)] disabled:opacity-25 disabled:cursor-not-allowed disabled:hover:shadow-none disabled:hover:border-[rgba(216,179,124,0.2)] disabled:hover:scale-100"
-          aria-label="Previous"
-        >
-          <svg className="w-4 h-4 text-[var(--tan)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
-          </svg>
-        </motion.button>
-
-        {/* Progress - book-like with bookmark accent */}
-        <div className="flex items-center gap-2.5">
-          <span className="text-sm font-medium text-[var(--parchment)] tabular-nums">
-            {currentIndex + 1}
-          </span>
-          <span className="text-[rgba(247,232,208,0.4)]">/</span>
-          <span className="text-sm text-[rgba(247,232,208,0.5)] tabular-nums">
-            {nuggets.length}
-          </span>
-          {/* Bookmark accent */}
-          <div className="w-10 h-[3px] bg-[var(--brass)] ml-1.5 rounded-full opacity-70" />
-        </div>
-
-        {/* Next Button */}
-        <motion.button
-          onClick={handleNext}
-          disabled={currentIndex === nuggets.length - 1}
-          whileHover={{ scale: 1.06 }}
-          whileTap={{ scale: 0.96 }}
-          className="w-11 h-11 flex items-center justify-center rounded-full border border-[rgba(216,179,124,0.2)] bg-[rgba(255,238,214,0.04)] transition-all duration-200 hover:border-[var(--brass)] hover:shadow-[0_0_16px_rgba(182,139,76,0.18)] disabled:opacity-25 disabled:cursor-not-allowed disabled:hover:shadow-none disabled:hover:border-[rgba(216,179,124,0.2)] disabled:hover:scale-100"
-          aria-label="Next"
-        >
-          <svg className="w-4 h-4 text-[var(--tan)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
-          </svg>
-        </motion.button>
+      {/* Progress indicator */}
+      <div className="flex items-center justify-center gap-2.5 mt-6">
+        <span className="text-sm font-medium text-[var(--parchment)] tabular-nums">
+          {currentIndex + 1}
+        </span>
+        <span className="text-[rgba(247,232,208,0.4)]">/</span>
+        <span className="text-sm text-[rgba(247,232,208,0.5)] tabular-nums">
+          {nuggets.length}
+        </span>
+        {/* Bookmark accent */}
+        <div className="w-10 h-[3px] bg-[var(--brass)] ml-1.5 rounded-full opacity-70" />
       </div>
 
       {/* Keyboard hint - fades after first interaction */}

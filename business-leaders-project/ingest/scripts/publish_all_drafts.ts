@@ -35,11 +35,10 @@ async function main() {
   }
 
   // Update all drafts to published
-  const { error, count } = await supabase
+  const { error } = await supabase
     .from("nuggets")
     .update({ status: "published" })
-    .eq("status", "draft")
-    .select("*", { count: "exact", head: true });
+    .eq("status", "draft");
 
   if (error) {
     console.error("Error publishing drafts:", error);
