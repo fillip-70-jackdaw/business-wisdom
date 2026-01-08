@@ -206,6 +206,33 @@ export function Feed() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   });
 
+  // Virtual preface card (not stored in DB)
+  const prefaceCard: NuggetWithLeader = useMemo(() => ({
+    id: "__preface__",
+    leader_id: "__preface__",
+    text: "This is a small collection of enduring business ideas.\nRead them slowly.\nKeep the ones that stay with you.",
+    topic_tags: [] as string[],
+    type: "principle" as const,
+    source_title: null,
+    source_url: null,
+    source_year: null,
+    confidence: "verified" as const,
+    status: "published" as const,
+    created_at: "",
+    leader: {
+      id: "__preface__",
+      name: "Preface",
+      slug: "preface",
+      title: "Business Wisdom",
+      photo_url: "",
+      photo_credit: null,
+      photo_license: null,
+      photo_source_url: null,
+      photo_attribution: null,
+      created_at: "",
+    },
+  }), []);
+
   // Filter and shuffle nuggets based on mode
   const displayedNuggets = useMemo(() => {
     const filtered = showFavoritesOnly
@@ -214,8 +241,15 @@ export function Feed() {
 
     // Apply anti-clustering shuffle (use different seed for favorites vs all)
     const shuffleSeed = showFavoritesOnly ? sessionSeed + 1 : sessionSeed;
-    return sessionSeed > 0 ? antiClusterShuffle(filtered, shuffleSeed) : filtered;
-  }, [nuggets, favorites, showFavoritesOnly, sessionSeed]);
+    const shuffled = sessionSeed > 0 ? antiClusterShuffle(filtered, shuffleSeed) : filtered;
+
+    // Prepend preface card only in "All" mode (not favorites)
+    if (!showFavoritesOnly && shuffled.length > 0) {
+      return [prefaceCard, ...shuffled];
+    }
+
+    return shuffled;
+  }, [nuggets, favorites, showFavoritesOnly, sessionSeed, prefaceCard]);
 
   // Navigation handlers
   const handleNext = () => {
@@ -239,6 +273,9 @@ export function Feed() {
   const handleFavoriteToggle = async () => {
     const currentNugget = displayedNuggets[currentIndex];
     if (!currentNugget) return;
+
+    // Skip preface card
+    if (currentNugget.id === "__preface__") return;
 
     if (!user) {
       setShowAuthModal(true);
@@ -344,9 +381,10 @@ export function Feed() {
             currentIndex={currentIndex}
             onNext={handleNext}
             onPrev={handlePrev}
-            isFavorited={currentNugget ? favorites.has(currentNugget.id) : false}
+            isFavorited={currentNugget && currentNugget.id !== "__preface__" ? favorites.has(currentNugget.id) : false}
             onFavoriteToggle={handleFavoriteToggle}
             totalCount={totalCount}
+            isPreface={currentNugget?.id === "__preface__"}
           />
         )}
       </main>

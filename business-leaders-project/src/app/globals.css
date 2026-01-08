@@ -4,20 +4,21 @@
 
 :root {
   /*
-   * Warm Study Daylight Palette
-   * Midtones lifted ~6% for ambient warmth
-   * Card remains darkest element (visual anchor)
+   * Warm Study Palette
+   * Background = the room (deepest brown, shadow)
+   * Card = the object (parchment catching light)
+   * Text = ink
    *
-   * SQUINT TEST: Card must be dominant shape when blurred
+   * SQUINT TEST: Card must float forward as paper
    */
   --bg0: #3D3028;
   --bg1: #4A3D30;
   --bg-edge: #2E241C;
   --bg: var(--bg0);
 
-  /* Card surface - kept darker than background for separation */
-  --card-surface: #302418;
-  --card-surface-light: #3A2E22;
+  /* Card surface - parchment/paper, lighter than room */
+  --card-surface: #4A3D30;
+  --card-surface-light: #584838;
 
   --surface: rgba(255, 238, 214, 0.04);
   --surface-2: rgba(255, 238, 214, 0.07);
