@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-07T17:55:40.004Z",
+  "generated_at": "2026-01-08T17:55:24.691Z",
   "stats": {
-    "total": 73,
-    "wikipedia_images": 56,
-    "fallback_avatars": 17
+    "total": 82,
+    "wikipedia_images": 60,
+    "fallback_avatars": 22
   },
   "results": {
     "walt-disney": {
@@ -70,10 +70,10 @@
       "verified": true
     },
     "coco-chanel": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMiwgMzclLCAyNyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzIsIDIwJSwgODUlKSI+CiAgICAgICAgQ0MKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg/467px-Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg",
+      "photo_license": "CC BY 4.0",
+      "photo_attribution": "Los Angeles Times",
       "verified": true
     },
     "edwin-land": {
@@ -378,10 +378,10 @@
       "verified": true
     },
     "bob-iger": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2022_Bob_Iger_%28cropped%29.jpg/482px-2022_Bob_Iger_%28cropped%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:2022_Bob_Iger_(cropped).jpg",
-      "photo_license": "CC BY 2.0",
-      "photo_attribution": "Village Global",
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MywgNDglLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDMsIDIwJSwgODUlKSI+CiAgICAgICAgQkkKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
       "verified": true
     },
     "ed-catmull": {
@@ -515,6 +515,69 @@
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Gwynne_Shotwell_at_2018_Commercial_Crew_announcement.jpg",
       "photo_license": "Public domain",
       "photo_attribution": "Bill Ingalls",
+      "verified": true
+    },
+    "ll-bean": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNSwgNDAlLCAzMCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzUsIDIwJSwgODUlKSI+CiAgICAgICAgTEIKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "alexander-hamilton": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/John_Trumbull_-_Alexander_Hamilton_-_Google_Art_Project.jpg/500px-John_Trumbull_-_Alexander_Hamilton_-_Google_Art_Project.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:John_Trumbull_-_Alexander_Hamilton_-_Google_Art_Project.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "John Trumbull",
+      "verified": true
+    },
+    "benjamin-franklin": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg/500px-Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "Joseph-Siffred Duplessis",
+      "verified": true
+    },
+    "madam-cj-walker": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNiwgNDElLCAzNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzYsIDIwJSwgODUlKSI+CiAgICAgICAgTUMKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "david-ogilvy": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzOSwgNDQlLCAzOSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzksIDIwJSwgODUlKSI+CiAgICAgICAgRE8KICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "herb-kelleher": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Herb_Kelleher_%28131125herb%29.jpg/500px-Herb_Kelleher_%28131125herb%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Herb_Kelleher_(131125herb).jpg",
+      "photo_license": "CC BY-SA 4.0",
+      "photo_attribution": "SouthwestArchive",
+      "verified": true
+    },
+    "yvon-chouinard": {
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Yvon_Chouinard_by_Tom_Frost.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Yvon_Chouinard_by_Tom_Frost.jpg",
+      "photo_license": "CC BY-SA 3.0",
+      "photo_attribution": "Tom Frost",
+      "verified": true
+    },
+    "milton-hershey": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMiwgMzclLCAzMiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzIsIDIwJSwgODUlKSI+CiAgICAgICAgTUgKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
+      "verified": true
+    },
+    "john-bogle": {
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgyNSwgMzAlLCAzMCUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMjUsIDIwJSwgODUlKSI+CiAgICAgICAgSkIKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
       "verified": true
     }
   }
