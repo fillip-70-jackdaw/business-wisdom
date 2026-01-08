@@ -73,6 +73,15 @@
     { "name": "Gordon Moore", "slug": "gordon-moore", "title": "Co-founder, Intel", "era": "modern" },
     { "name": "Robert Noyce", "slug": "robert-noyce", "title": "Co-founder, Intel", "era": "1900s" },
     { "name": "Morris Chang", "slug": "morris-chang", "title": "Founder, TSMC", "era": "modern" },
-    { "name": "Gwynne Shotwell", "slug": "gwynne-shotwell", "title": "President, SpaceX", "era": "modern" }
+    { "name": "Gwynne Shotwell", "slug": "gwynne-shotwell", "title": "President, SpaceX", "era": "modern" },
+    { "name": "L.L. Bean", "slug": "ll-bean", "title": "Founder, L.L.Bean", "era": "1900s" },
+    { "name": "Alexander Hamilton", "slug": "alexander-hamilton", "title": "Founding Father & First Treasury Secretary", "era": "1700s" },
+    { "name": "Benjamin Franklin", "slug": "benjamin-franklin", "title": "Founding Father, Inventor & Entrepreneur", "era": "1700s" },
+    { "name": "Madam C.J. Walker", "slug": "madam-cj-walker", "title": "Founder, Madam C.J. Walker Manufacturing", "era": "1900s" },
+    { "name": "David Ogilvy", "slug": "david-ogilvy", "title": "Founder, Ogilvy & Mather", "era": "1900s" },
+    { "name": "Herb Kelleher", "slug": "herb-kelleher", "title": "Co-founder, Southwest Airlines", "era": "modern" },
+    { "name": "Yvon Chouinard", "slug": "yvon-chouinard", "title": "Founder, Patagonia", "era": "modern" },
+    { "name": "Milton Hershey", "slug": "milton-hershey", "title": "Founder, Hershey Company", "era": "1900s" },
+    { "name": "John Bogle", "slug": "john-bogle", "title": "Founder, Vanguard Group", "era": "modern" }
   ]
 }
