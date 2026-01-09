@@ -139,6 +139,8 @@ export function FavoritesContent() {
         user={user}
         onSignIn={() => setShowAuthModal(true)}
         onSignOut={handleSignOut}
+        showFavoritesOnly={true}
+        favoritesCount={favorites.length}
       />
 
       <main className="pt-24 pb-12">

@@ -30,36 +30,34 @@ export function Header({
           </span>
         </Link>
 
-        {/* Center - Toggle */}
-        {onToggleFavorites && (
-          <div className="flex items-center bg-[rgba(255,238,214,0.03)] rounded-lg p-1 border border-[rgba(216,179,124,0.12)]">
-            <button
-              onClick={() => showFavoritesOnly && onToggleFavorites()}
-              className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 ${
-                !showFavoritesOnly
-                  ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
-                  : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
-              }`}
-            >
-              All
-            </button>
-            <button
-              onClick={() => !showFavoritesOnly && onToggleFavorites()}
-              className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 flex items-center gap-1.5 ${
-                showFavoritesOnly
-                  ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
-                  : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
-              }`}
-            >
-              Favorites
-              {favoritesCount > 0 && (
-                <span className="text-[10px] bg-[rgba(196,154,92,0.18)] text-[var(--brass)] px-1.5 py-0.5 rounded-full">
-                  {favoritesCount}
-                </span>
-              )}
-            </button>
-          </div>
-        )}
+        {/* Center - Navigation */}
+        <div className="flex items-center bg-[rgba(255,238,214,0.03)] rounded-lg p-1 border border-[rgba(216,179,124,0.12)]">
+          <Link
+            href="/"
+            className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 ${
+              !showFavoritesOnly
+                ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
+                : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
+            }`}
+          >
+            All
+          </Link>
+          <Link
+            href="/favorites"
+            className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 flex items-center gap-1.5 ${
+              showFavoritesOnly
+                ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
+                : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
+            }`}
+          >
+            Favorites
+            {favoritesCount > 0 && (
+              <span className="text-[10px] bg-[rgba(196,154,92,0.18)] text-[var(--brass)] px-1.5 py-0.5 rounded-full">
+                {favoritesCount}
+              </span>
+            )}
+          </Link>
+        </div>
 
         {/* Right - Auth */}
         <div className="flex items-center gap-2">
