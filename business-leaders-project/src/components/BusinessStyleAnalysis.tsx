@@ -120,7 +120,7 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="rounded-2xl border border-slate-200 dark:border-slate-700 p-6 md:p-8 bg-white dark:bg-slate-800 shadow-sm"
+      className="rounded-2xl border-2 border-amber-300 dark:border-amber-600 p-6 md:p-8 bg-white dark:bg-slate-800 shadow-lg"
     >
       {/* Header */}
       <div className="flex items-center gap-3 mb-4">
