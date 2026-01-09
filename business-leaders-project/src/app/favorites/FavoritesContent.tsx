@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { NuggetCard } from "@/components/NuggetCard";
 import { SkeletonCard } from "@/components/SkeletonCard";
 import { AuthModal } from "@/components/AuthModal";
+import { BusinessStyleAnalysis } from "@/components/BusinessStyleAnalysis";
 
 export function FavoritesContent() {
   const router = useRouter();
@@ -202,6 +203,13 @@ export function FavoritesContent() {
           {/* Favorites list */}
           {user && !isLoading && favorites.length > 0 && (
             <>
+              {/* Business Style Analysis - show when 3+ favorites */}
+              {favorites.length >= 3 && (
+                <div className="mb-8">
+                  <BusinessStyleAnalysis nuggets={favorites} />
+                </div>
+              )}
+
               {/* Search */}
               <div className="mb-6">
                 <input
