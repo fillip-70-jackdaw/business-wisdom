@@ -77,9 +77,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (nuggets.length < 3) {
+    if (nuggets.length < 1) {
       return NextResponse.json(
-        { error: "Need at least 3 favorites for analysis" },
+        { error: "Need at least 1 favorite for analysis" },
         { status: 400 }
       );
     }
