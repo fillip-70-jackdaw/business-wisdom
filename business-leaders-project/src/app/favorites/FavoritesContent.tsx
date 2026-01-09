@@ -203,8 +203,8 @@ export function FavoritesContent() {
           {/* Favorites list */}
           {user && !isLoading && favorites.length > 0 && (
             <>
-              {/* Business Style Analysis - show when 3+ favorites */}
-              {favorites.length >= 3 && (
+              {/* Business Style Analysis - show when 1+ favorites */}
+              {favorites.length >= 1 && (
                 <div className="mb-8">
                   <BusinessStyleAnalysis nuggets={favorites} />
                 </div>
