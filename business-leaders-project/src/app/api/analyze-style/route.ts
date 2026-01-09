@@ -116,8 +116,33 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ analysis: text });
   } catch (error) {
     console.error("Analysis error:", error);
+
+    // Provide more specific error messages
+    const errorMessage = error instanceof Error ? error.message : "Unknown error";
+
+    if (errorMessage.includes("API_KEY") || errorMessage.includes("API key")) {
+      return NextResponse.json(
+        { error: "AI service authentication failed. Please check API key configuration." },
+        { status: 503 }
+      );
+    }
+
+    if (errorMessage.includes("quota") || errorMessage.includes("rate limit")) {
+      return NextResponse.json(
+        { error: "AI service rate limit reached. Please try again in a few minutes." },
+        { status: 429 }
+      );
+    }
+
+    if (errorMessage.includes("SAFETY") || errorMessage.includes("blocked")) {
+      return NextResponse.json(
+        { error: "Content was filtered by safety settings. Try with different favorites." },
+        { status: 400 }
+      );
+    }
+
     return NextResponse.json(
-      { error: "Failed to generate analysis" },
+      { error: `Analysis failed: ${errorMessage}` },
       { status: 500 }
     );
   }

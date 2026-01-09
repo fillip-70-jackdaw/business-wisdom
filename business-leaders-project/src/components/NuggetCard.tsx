@@ -19,7 +19,7 @@ export function NuggetCard({
   showFavorite = true,
 }: NuggetCardProps) {
   return (
-    <div className="group relative bg-white/[0.04] border border-white/10 rounded-2xl p-5 transition-all duration-200 ease-out hover:bg-white/[0.06] hover:-translate-y-0.5 hover:shadow-2xl">
+    <div className="group relative bg-[var(--surface)] border border-[var(--border)] rounded-2xl p-5 transition-all duration-200 ease-out hover:bg-[var(--surface-2)] hover:-translate-y-0.5 hover:shadow-2xl">
       {/* Favorite Button - Top Right */}
       {showFavorite && (
         <div className="absolute top-4 right-4">
@@ -34,7 +34,7 @@ export function NuggetCard({
       {/* Header - Avatar + Name */}
       <div className="flex items-center gap-3 mb-4">
         <Link href={`/leaders/${nugget.leader.slug}`} className="shrink-0">
-          <div className="relative w-9 h-9 rounded-full overflow-hidden bg-white/10">
+          <div className="relative w-9 h-9 rounded-full overflow-hidden bg-[var(--surface-2)]">
             <Image
               src={nugget.leader.photo_url}
               alt={nugget.leader.name}
@@ -48,23 +48,23 @@ export function NuggetCard({
         <div className="min-w-0">
           <Link
             href={`/leaders/${nugget.leader.slug}`}
-            className="block text-sm font-semibold text-white/90 hover:text-white truncate"
+            className="block text-sm font-semibold text-[var(--parchment)] hover:text-[var(--tan)] truncate"
           >
             {nugget.leader.name}
           </Link>
-          <p className="text-xs text-white/40 truncate">
+          <p className="text-xs text-[var(--text-muted)] truncate">
             {nugget.leader.title}
           </p>
         </div>
       </div>
 
       {/* Nugget Text - Primary Focus */}
-      <p className="text-xl font-medium text-white/90 leading-snug tracking-[-0.01em] pr-8">
+      <p className="text-xl font-medium text-[var(--text)] leading-snug tracking-[-0.01em] pr-8">
         {nugget.text}
       </p>
 
       {/* Metadata */}
-      <div className="mt-4 flex items-center gap-1 text-xs text-white/30">
+      <div className="mt-4 flex items-center gap-1 text-xs text-[var(--text-muted)]">
         {nugget.topic_tags.slice(0, 3).map((tag, i) => (
           <span key={tag} className="flex items-center">
             {i > 0 && <span className="mx-1.5">·</span>}

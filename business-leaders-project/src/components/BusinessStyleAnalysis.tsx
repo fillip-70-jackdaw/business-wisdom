@@ -11,22 +11,22 @@ interface BusinessStyleAnalysisProps {
 function AnalysisSkeleton() {
   return (
     <div className="animate-pulse space-y-4">
-      <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-1/3" />
+      <div className="h-4 bg-[var(--surface-2)] rounded w-1/3" />
       <div className="space-y-2">
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-full" />
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-5/6" />
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-4/5" />
+        <div className="h-3 bg-[var(--surface)] rounded w-full" />
+        <div className="h-3 bg-[var(--surface)] rounded w-5/6" />
+        <div className="h-3 bg-[var(--surface)] rounded w-4/5" />
       </div>
-      <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-1/4 mt-6" />
+      <div className="h-4 bg-[var(--surface-2)] rounded w-1/4 mt-6" />
       <div className="space-y-2">
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-full" />
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-3/4" />
+        <div className="h-3 bg-[var(--surface)] rounded w-full" />
+        <div className="h-3 bg-[var(--surface)] rounded w-3/4" />
       </div>
-      <div className="h-4 bg-slate-200 dark:bg-slate-700 rounded w-2/5 mt-6" />
+      <div className="h-4 bg-[var(--surface-2)] rounded w-2/5 mt-6" />
       <div className="space-y-2">
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-full" />
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-5/6" />
-        <div className="h-3 bg-slate-100 dark:bg-slate-700/50 rounded w-2/3" />
+        <div className="h-3 bg-[var(--surface)] rounded w-full" />
+        <div className="h-3 bg-[var(--surface)] rounded w-5/6" />
+        <div className="h-3 bg-[var(--surface)] rounded w-2/3" />
       </div>
     </div>
   );
@@ -61,7 +61,7 @@ function formatAnalysis(text: string): React.ReactNode {
       return (
         <h3
           key={i}
-          className="text-amber-600 dark:text-amber-400 font-semibold mt-5 mb-2 first:mt-0"
+          className="text-[var(--tan)] font-semibold mt-5 mb-2 first:mt-0"
         >
           {content}
         </h3>
@@ -71,7 +71,7 @@ function formatAnalysis(text: string): React.ReactNode {
     return part.split("\n").map((line, j) => (
       <p
         key={`${i}-${j}`}
-        className="text-slate-700 dark:text-slate-200 leading-relaxed mb-2 last:mb-0"
+        className="text-[var(--text)] leading-relaxed mb-2 last:mb-0"
       >
         {line}
       </p>
@@ -120,18 +120,18 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4 }}
-      className="rounded-2xl border-2 border-amber-300 dark:border-amber-600 p-6 md:p-8 bg-white dark:bg-slate-800 shadow-lg"
+      className="rounded-2xl border border-[var(--border)] p-6 md:p-8 bg-[var(--card-surface)] shadow-lg"
     >
       {/* Header */}
       <div className="flex items-center gap-3 mb-4">
-        <div className="w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
-          <SparkleIcon className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+        <div className="w-10 h-10 rounded-full bg-[var(--surface-2)] flex items-center justify-center">
+          <SparkleIcon className="w-5 h-5 text-[var(--tan)]" />
         </div>
         <div>
-          <h2 className="text-lg font-medium text-slate-900 dark:text-white">
+          <h2 className="text-lg font-medium text-[var(--parchment)]">
             Your Business Style Profile
           </h2>
-          <p className="text-sm text-slate-500 dark:text-slate-400">
+          <p className="text-sm text-[var(--text-muted)]">
             Based on {nuggets.length} saved nugget{nuggets.length !== 1 ? "s" : ""}
           </p>
         </div>
@@ -147,14 +147,14 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
             exit={{ opacity: 0 }}
             className="py-4"
           >
-            <p className="text-slate-600 dark:text-slate-300 mb-5 leading-relaxed">
+            <p className="text-[var(--text-muted)] mb-5 leading-relaxed">
               Discover patterns in the wisdom you&apos;ve saved. Our AI will analyze
               your favorites to reveal your unique business philosophy.
             </p>
             <button
               onClick={generateAnalysis}
-              className="px-5 py-2.5 rounded-xl bg-amber-600 text-white font-medium
-                         hover:bg-amber-700 transition-all duration-200
+              className="px-5 py-2.5 rounded-xl bg-[var(--tan)] text-[var(--bg)] font-medium
+                         hover:bg-[var(--brass)] transition-all duration-200
                          flex items-center gap-2"
             >
               <SparkleIcon className="w-4 h-4" />
@@ -173,7 +173,7 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
             className="py-4"
           >
             <AnalysisSkeleton />
-            <p className="text-sm text-slate-500 dark:text-slate-400 mt-4 flex items-center gap-2">
+            <p className="text-sm text-[var(--text-muted)] mt-4 flex items-center gap-2">
               <svg
                 className="animate-spin w-4 h-4"
                 viewBox="0 0 24 24"
@@ -228,8 +228,8 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
             </div>
             <button
               onClick={generateAnalysis}
-              className="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300
-                         hover:bg-slate-100 dark:hover:bg-slate-700 transition-all duration-200
+              className="px-4 py-2 rounded-lg border border-[var(--border)] text-[var(--text-muted)]
+                         hover:bg-[var(--surface)] hover:text-[var(--text)] transition-all duration-200
                          text-sm font-medium"
             >
               Try Again
@@ -247,11 +247,11 @@ export function BusinessStyleAnalysis({ nuggets }: BusinessStyleAnalysisProps) {
             className="py-2"
           >
             <div className="prose-sm">{formatAnalysis(analysis)}</div>
-            <div className="mt-6 pt-4 border-t border-slate-200 dark:border-slate-700">
+            <div className="mt-6 pt-4 border-t border-[var(--border)]">
               <button
                 onClick={generateAnalysis}
-                className="px-4 py-2 rounded-lg border border-slate-300 dark:border-slate-600 text-slate-600 dark:text-slate-400
-                           hover:text-amber-600 dark:hover:text-amber-400 hover:border-amber-400
+                className="px-4 py-2 rounded-lg border border-[var(--border)] text-[var(--text-muted)]
+                           hover:text-[var(--tan)] hover:border-[var(--tan)]
                            transition-all duration-200 text-sm font-medium
                            flex items-center gap-2"
               >

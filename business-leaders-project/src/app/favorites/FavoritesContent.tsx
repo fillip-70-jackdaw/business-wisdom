@@ -134,7 +134,7 @@ export function FavoritesContent() {
     : favorites;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-slate-50 to-slate-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+    <div className="min-h-screen bg-library">
       <Header
         user={user}
         onSignIn={() => setShowAuthModal(true)}
@@ -147,10 +147,10 @@ export function FavoritesContent() {
         <div className="max-w-4xl mx-auto px-4">
           {/* Header */}
           <div className="mb-8">
-            <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white mb-2">
+            <h1 className="text-3xl sm:text-4xl font-bold text-[var(--parchment)] mb-2">
               My Favorites
             </h1>
-            <p className="text-slate-600 dark:text-slate-400">
+            <p className="text-[var(--text-muted)]">
               Your saved nuggets of wisdom
             </p>
           </div>
@@ -159,15 +159,15 @@ export function FavoritesContent() {
           {!user && !isLoading && (
             <div className="text-center py-16">
               <div className="text-6xl mb-4">❤️</div>
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
+              <h2 className="text-2xl font-bold text-[var(--parchment)] mb-2">
                 Sign in to save favorites
               </h2>
-              <p className="text-slate-600 dark:text-slate-400 mb-6">
+              <p className="text-[var(--text-muted)] mb-6">
                 Create an account to start saving your favorite nuggets
               </p>
               <button
                 onClick={() => setShowAuthModal(true)}
-                className="px-6 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-lg font-medium hover:bg-slate-700 dark:hover:bg-slate-200 transition"
+                className="px-6 py-3 bg-[var(--tan)] text-[var(--bg)] rounded-lg font-medium hover:bg-[var(--brass)] transition"
               >
                 Sign In
               </button>
@@ -187,15 +187,15 @@ export function FavoritesContent() {
           {user && !isLoading && favorites.length === 0 && (
             <div className="text-center py-16">
               <div className="text-6xl mb-4">📚</div>
-              <h2 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
+              <h2 className="text-2xl font-bold text-[var(--parchment)] mb-2">
                 No favorites yet
               </h2>
-              <p className="text-slate-600 dark:text-slate-400 mb-6">
+              <p className="text-[var(--text-muted)] mb-6">
                 Start exploring and save the nuggets that inspire you
               </p>
               <button
                 onClick={() => router.push("/")}
-                className="px-6 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-lg font-medium hover:bg-slate-700 dark:hover:bg-slate-200 transition"
+                className="px-6 py-3 bg-[var(--tan)] text-[var(--bg)] rounded-lg font-medium hover:bg-[var(--brass)] transition"
               >
                 Explore Wisdom
               </button>
@@ -219,12 +219,12 @@ export function FavoritesContent() {
                   placeholder="Search your favorites..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                  className="w-full px-4 py-3 rounded-xl border border-[var(--border)] bg-[var(--surface)] text-[var(--text)] placeholder:text-[var(--text-muted)] focus:ring-2 focus:ring-[var(--tan)] focus:border-transparent outline-none transition"
                 />
               </div>
 
               {/* Results count */}
-              <p className="text-slate-500 dark:text-slate-400 text-sm mb-4">
+              <p className="text-[var(--text-muted)] text-sm mb-4">
                 {filteredFavorites.length} favorite{filteredFavorites.length !== 1 ? "s" : ""}
                 {searchQuery && ` matching "${searchQuery}"`}
               </p>
@@ -242,7 +242,7 @@ export function FavoritesContent() {
               </div>
 
               {filteredFavorites.length === 0 && searchQuery && (
-                <div className="text-center py-12 text-slate-500 dark:text-slate-400">
+                <div className="text-center py-12 text-[var(--text-muted)]">
                   No favorites match your search
                 </div>
               )}
