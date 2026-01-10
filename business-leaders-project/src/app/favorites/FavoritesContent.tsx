@@ -172,10 +172,17 @@ export function FavoritesContent() {
     router.push("/");
   };
 
-  // Derive available topics from favorites
-  const availableTopics = useMemo(() => {
-    const allTags = favorites.flatMap((n) => n.topic_tags);
-    return [...new Set(allTags)].sort();
+  // Derive topics with counts from favorites
+  const topicsWithCounts = useMemo(() => {
+    const tagCounts: Record<string, number> = {};
+    favorites.forEach((n) => {
+      n.topic_tags.forEach((tag) => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+    });
+    return Object.entries(tagCounts)
+      .map(([topic, count]) => ({ topic, count }))
+      .sort((a, b) => b.count - a.count);
   }, [favorites]);
 
   // Filter favorites by search query and topics
@@ -226,7 +233,7 @@ export function FavoritesContent() {
         onSignOut={handleSignOut}
         showFavoritesOnly={true}
         favoritesCount={favorites.length}
-        availableTopics={availableTopics}
+        topicsWithCounts={topicsWithCounts}
         selectedTopics={selectedTopics}
         onTopicsChange={handleTopicsChange}
       />

@@ -288,10 +288,17 @@ export function Feed() {
     },
   }), []);
 
-  // Derive available topics from all nuggets
-  const availableTopics = useMemo(() => {
-    const allTags = nuggets.flatMap((n) => n.topic_tags);
-    return [...new Set(allTags)].sort();
+  // Derive topics with counts from all nuggets
+  const topicsWithCounts = useMemo(() => {
+    const tagCounts: Record<string, number> = {};
+    nuggets.forEach((n) => {
+      n.topic_tags.forEach((tag) => {
+        tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+      });
+    });
+    return Object.entries(tagCounts)
+      .map(([topic, count]) => ({ topic, count }))
+      .sort((a, b) => b.count - a.count);
   }, [nuggets]);
 
   // Filter and shuffle nuggets based on mode and topics
@@ -436,7 +443,7 @@ export function Feed() {
         showFavoritesOnly={showFavoritesOnly}
         onToggleFavorites={handleToggleFavorites}
         favoritesCount={favorites.size}
-        availableTopics={availableTopics}
+        topicsWithCounts={topicsWithCounts}
         selectedTopics={selectedTopics}
         onTopicsChange={handleTopicsChange}
       />

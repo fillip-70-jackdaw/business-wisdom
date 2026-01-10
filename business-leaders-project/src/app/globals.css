@@ -29,6 +29,10 @@
   --text-muted: rgba(247, 232, 208, 0.55);
   --border: rgba(216, 179, 124, 0.22);
   --border-hover: rgba(216, 179, 124, 0.38);
+
+  /* Hermès orange - selective accent only */
+  --hermes: #FF5A1F;
+  --hermes-soft: rgba(255, 90, 31, 0.18);
 }
 
 body {
@@ -105,10 +109,11 @@ body::before {
   background: var(--border-hover);
 }
 
-/* Focus states */
+/* Focus states - subtle Hermès orange */
 *:focus-visible {
-  outline: 2px solid var(--tan);
+  outline: 1.5px solid var(--hermes);
   outline-offset: 2px;
+  opacity: 0.85;
 }
 
 /* Selection */
