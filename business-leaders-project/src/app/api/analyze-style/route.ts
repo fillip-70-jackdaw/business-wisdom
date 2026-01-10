@@ -94,7 +94,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Initialize Gemini - use gemini-1.5-flash for free tier compatibility
+    // Initialize Gemini
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
       model: "gemini-2.5-flash",
@@ -102,7 +102,7 @@ export async function POST(request: NextRequest) {
         temperature: 0.7,
         topP: 0.8,
         topK: 40,
-        maxOutputTokens: 1024,
+        maxOutputTokens: 2048,
       },
     });
 
