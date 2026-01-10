@@ -124,6 +124,45 @@ export type Database = {
           }
         ];
       };
+      saved_articles: {
+        Row: {
+          id: string;
+          user_id: string;
+          url: string;
+          title: string | null;
+          description: string | null;
+          image_url: string | null;
+          domain: string | null;
+          is_read: boolean;
+          created_at: string;
+          read_at: string | null;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          url: string;
+          title?: string | null;
+          description?: string | null;
+          image_url?: string | null;
+          domain?: string | null;
+          is_read?: boolean;
+          created_at?: string;
+          read_at?: string | null;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          url?: string;
+          title?: string | null;
+          description?: string | null;
+          image_url?: string | null;
+          domain?: string | null;
+          is_read?: boolean;
+          created_at?: string;
+          read_at?: string | null;
+        };
+        Relationships: [];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
@@ -136,6 +175,7 @@ export type Database = {
 export type Leader = Database["public"]["Tables"]["leaders"]["Row"];
 export type Nugget = Database["public"]["Tables"]["nuggets"]["Row"];
 export type Favorite = Database["public"]["Tables"]["favorites"]["Row"];
+export type SavedArticle = Database["public"]["Tables"]["saved_articles"]["Row"];
 
 export type NuggetWithLeader = Nugget & {
   leader: Leader;

@@ -17,6 +17,8 @@ interface HeaderProps {
   showFavoritesOnly?: boolean;
   onToggleFavorites?: () => void;
   favoritesCount?: number;
+  articlesCount?: number;
+  isArticlesPage?: boolean;
   topicsWithCounts?: TopicWithCount[];
   selectedTopics?: string[];
   onTopicsChange?: (topics: string[]) => void;
@@ -29,6 +31,8 @@ export function Header({
   showFavoritesOnly = false,
   onToggleFavorites,
   favoritesCount = 0,
+  articlesCount = 0,
+  isArticlesPage = false,
   topicsWithCounts = [],
   selectedTopics = [],
   onTopicsChange,
@@ -87,6 +91,27 @@ export function Header({
                   }}
                 >
                   {favoritesCount}
+                </span>
+              )}
+            </Link>
+            <Link
+              href="/articles"
+              className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 flex items-center gap-1.5 ${
+                isArticlesPage
+                  ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
+                  : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
+              }`}
+            >
+              Articles
+              {articlesCount > 0 && (
+                <span
+                  className="text-[10px] px-1.5 py-0.5 rounded-full"
+                  style={{
+                    backgroundColor: "var(--hermes-soft)",
+                    color: "var(--hermes)",
+                  }}
+                >
+                  {articlesCount}
                 </span>
               )}
             </Link>
