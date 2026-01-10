@@ -117,30 +117,14 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("Analysis error:", error);
 
-    // Provide more specific error messages
+    // Get full error details
     const errorMessage = error instanceof Error ? error.message : "Unknown error";
+    const errorString = String(error);
 
-    if (errorMessage.includes("API_KEY") || errorMessage.includes("API key")) {
-      return NextResponse.json(
-        { error: "AI service authentication failed. Please check API key configuration." },
-        { status: 503 }
-      );
-    }
+    // Log full error for debugging
+    console.error("Full error:", errorString);
 
-    if (errorMessage.includes("quota") || errorMessage.includes("rate limit")) {
-      return NextResponse.json(
-        { error: "AI service rate limit reached. Please try again in a few minutes." },
-        { status: 429 }
-      );
-    }
-
-    if (errorMessage.includes("SAFETY") || errorMessage.includes("blocked")) {
-      return NextResponse.json(
-        { error: "Content was filtered by safety settings. Try with different favorites." },
-        { status: 400 }
-      );
-    }
-
+    // Always show the actual error for debugging
     return NextResponse.json(
       { error: `Analysis failed: ${errorMessage}` },
       { status: 500 }
