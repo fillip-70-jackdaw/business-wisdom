@@ -10,6 +10,7 @@ interface NuggetCardProps {
   isFavorited?: boolean;
   onFavoriteToggle?: (nuggetId: string) => void;
   showFavorite?: boolean;
+  onTagClick?: (tag: string) => void;
 }
 
 export function NuggetCard({
@@ -17,6 +18,7 @@ export function NuggetCard({
   isFavorited = false,
   onFavoriteToggle,
   showFavorite = true,
+  onTagClick,
 }: NuggetCardProps) {
   return (
     <div className="group relative bg-[var(--surface)] border border-[var(--border)] rounded-2xl p-5 transition-all duration-200 ease-out hover:bg-[var(--surface-2)] hover:-translate-y-0.5 hover:shadow-2xl">
@@ -68,7 +70,12 @@ export function NuggetCard({
         {nugget.topic_tags.slice(0, 3).map((tag, i) => (
           <span key={tag} className="flex items-center">
             {i > 0 && <span className="mx-1.5">·</span>}
-            <span className="capitalize">{tag}</span>
+            <button
+              onClick={() => onTagClick?.(tag)}
+              className="capitalize hover:text-[var(--tan)] transition-colors cursor-pointer"
+            >
+              {tag}
+            </button>
           </span>
         ))}
         {nugget.source_title && (

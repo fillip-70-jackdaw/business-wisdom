@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, useCallback, useMemo } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import type { NuggetWithLeader } from "@/lib/supabase/types";
@@ -13,14 +13,65 @@ import { BusinessStyleAnalysis } from "@/components/BusinessStyleAnalysis";
 
 export function FavoritesContent() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const [user, setUser] = useState<User | null>(null);
   const [favorites, setFavorites] = useState<NuggetWithLeader[]>([]);
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set());
   const [isLoading, setIsLoading] = useState(true);
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   const supabase = createClient();
+
+  // Initialize topics from URL or localStorage
+  useEffect(() => {
+    const urlTopics = searchParams.get("topics")?.split(",").filter(Boolean) || [];
+
+    if (urlTopics.length > 0) {
+      setSelectedTopics(urlTopics);
+    } else {
+      // Try localStorage
+      try {
+        const stored = localStorage.getItem("bw:selectedTopics");
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed)) {
+            setSelectedTopics(parsed);
+          }
+        }
+      } catch {
+        // Ignore localStorage errors
+      }
+    }
+  }, [searchParams]);
+
+  // Persist topics to URL and localStorage
+  const handleTopicsChange = useCallback((topics: string[]) => {
+    setSelectedTopics(topics);
+
+    // Update URL
+    const params = new URLSearchParams(searchParams.toString());
+    if (topics.length > 0) {
+      params.set("topics", [...topics].sort().join(","));
+    } else {
+      params.delete("topics");
+    }
+    const newUrl = params.toString() ? `/favorites?${params.toString()}` : "/favorites";
+    router.replace(newUrl, { scroll: false });
+
+    // Update localStorage
+    try {
+      localStorage.setItem("bw:selectedTopics", JSON.stringify(topics));
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, [router, searchParams]);
+
+  // Handle tag click - set single topic filter
+  const handleTagClick = useCallback((tag: string) => {
+    handleTopicsChange([tag]);
+  }, [handleTopicsChange]);
 
   // Fetch user
   useEffect(() => {
@@ -121,17 +172,51 @@ export function FavoritesContent() {
     router.push("/");
   };
 
-  // Filter favorites by search query
-  const filteredFavorites = searchQuery
-    ? favorites.filter(
+  // Derive available topics from favorites
+  const availableTopics = useMemo(() => {
+    const allTags = favorites.flatMap((n) => n.topic_tags);
+    return [...new Set(allTags)].sort();
+  }, [favorites]);
+
+  // Filter favorites by search query and topics
+  const filteredFavorites = useMemo(() => {
+    let filtered = favorites;
+
+    // Filter by selected topics (ANY-match)
+    if (selectedTopics.length > 0) {
+      filtered = filtered.filter((n) =>
+        n.topic_tags.some((tag) => selectedTopics.includes(tag))
+      );
+    }
+
+    // Filter by search query
+    if (searchQuery) {
+      filtered = filtered.filter(
         (n) =>
           n.text.toLowerCase().includes(searchQuery.toLowerCase()) ||
           n.leader.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
           n.topic_tags.some((t) =>
             t.toLowerCase().includes(searchQuery.toLowerCase())
           )
-      )
-    : favorites;
+      );
+    }
+
+    return filtered;
+  }, [favorites, selectedTopics, searchQuery]);
+
+  // Get empty message
+  const getEmptyMessage = () => {
+    if (selectedTopics.length > 0 && searchQuery) {
+      return "No favorites match these topics and search";
+    }
+    if (selectedTopics.length > 0) {
+      return "No saved insights for these topics";
+    }
+    if (searchQuery) {
+      return "No favorites match your search";
+    }
+    return null;
+  };
 
   return (
     <div className="min-h-screen bg-library">
@@ -141,6 +226,9 @@ export function FavoritesContent() {
         onSignOut={handleSignOut}
         showFavoritesOnly={true}
         favoritesCount={favorites.length}
+        availableTopics={availableTopics}
+        selectedTopics={selectedTopics}
+        onTopicsChange={handleTopicsChange}
       />
 
       <main className="pt-24 pb-12">
@@ -183,7 +271,7 @@ export function FavoritesContent() {
             </div>
           )}
 
-          {/* Empty state */}
+          {/* Empty state - no favorites at all */}
           {user && !isLoading && favorites.length === 0 && (
             <div className="text-center py-16">
               <div className="text-6xl mb-4">📚</div>
@@ -227,6 +315,7 @@ export function FavoritesContent() {
               <p className="text-[var(--text-muted)] text-sm mb-4">
                 {filteredFavorites.length} favorite{filteredFavorites.length !== 1 ? "s" : ""}
                 {searchQuery && ` matching "${searchQuery}"`}
+                {selectedTopics.length > 0 && ` in ${selectedTopics.length} topic${selectedTopics.length !== 1 ? "s" : ""}`}
               </p>
 
               {/* Cards */}
@@ -237,13 +326,28 @@ export function FavoritesContent() {
                     nugget={nugget}
                     isFavorited={favoriteIds.has(nugget.id)}
                     onFavoriteToggle={handleFavoriteToggle}
+                    onTagClick={handleTagClick}
                   />
                 ))}
               </div>
 
-              {filteredFavorites.length === 0 && searchQuery && (
-                <div className="text-center py-12 text-[var(--text-muted)]">
-                  No favorites match your search
+              {/* Empty state after filtering */}
+              {filteredFavorites.length === 0 && (searchQuery || selectedTopics.length > 0) && (
+                <div className="text-center py-12">
+                  <p className="text-[var(--text-muted)] mb-4">{getEmptyMessage()}</p>
+                  <button
+                    onClick={() => {
+                      if (selectedTopics.length > 0) {
+                        handleTopicsChange([]);
+                      }
+                      if (searchQuery) {
+                        setSearchQuery("");
+                      }
+                    }}
+                    className="text-[var(--tan)] hover:text-[var(--parchment)] text-sm underline"
+                  >
+                    Clear filters
+                  </button>
                 </div>
               )}
             </>

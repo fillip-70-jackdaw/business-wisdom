@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import type { User } from "@supabase/supabase-js";
 import { createClient } from "@/lib/supabase/client";
 import type { NuggetWithLeader } from "@/lib/supabase/types";
@@ -104,6 +105,9 @@ function antiClusterShuffle(nuggets: NuggetWithLeader[], seed: number): NuggetWi
 }
 
 export function Feed() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   const [user, setUser] = useState<User | null>(null);
   const [nuggets, setNuggets] = useState<NuggetWithLeader[]>([]);
   const [totalCount, setTotalCount] = useState(0);
@@ -113,6 +117,7 @@ export function Feed() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sessionSeed, setSessionSeed] = useState<number>(0);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   const supabase = createClient();
 
@@ -120,6 +125,56 @@ export function Feed() {
   useEffect(() => {
     setSessionSeed(getSessionSeed());
   }, []);
+
+  // Initialize topics from URL or localStorage
+  useEffect(() => {
+    const urlTopics = searchParams.get("topics")?.split(",").filter(Boolean) || [];
+
+    if (urlTopics.length > 0) {
+      setSelectedTopics(urlTopics);
+    } else {
+      // Try localStorage
+      try {
+        const stored = localStorage.getItem("bw:selectedTopics");
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          if (Array.isArray(parsed)) {
+            setSelectedTopics(parsed);
+          }
+        }
+      } catch {
+        // Ignore localStorage errors
+      }
+    }
+  }, [searchParams]);
+
+  // Persist topics to URL and localStorage
+  const handleTopicsChange = useCallback((topics: string[]) => {
+    setSelectedTopics(topics);
+    setCurrentIndex(0); // Reset to first item when filter changes
+
+    // Update URL
+    const params = new URLSearchParams(searchParams.toString());
+    if (topics.length > 0) {
+      params.set("topics", [...topics].sort().join(","));
+    } else {
+      params.delete("topics");
+    }
+    const newUrl = params.toString() ? `?${params.toString()}` : "/";
+    router.replace(newUrl, { scroll: false });
+
+    // Update localStorage
+    try {
+      localStorage.setItem("bw:selectedTopics", JSON.stringify(topics));
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, [router, searchParams]);
+
+  // Handle tag click from NuggetViewer - set single topic filter
+  const handleTagClick = useCallback((tag: string) => {
+    handleTopicsChange([tag]);
+  }, [handleTopicsChange]);
 
   // Fetch user on mount
   useEffect(() => {
@@ -233,23 +288,37 @@ export function Feed() {
     },
   }), []);
 
-  // Filter and shuffle nuggets based on mode
+  // Derive available topics from all nuggets
+  const availableTopics = useMemo(() => {
+    const allTags = nuggets.flatMap((n) => n.topic_tags);
+    return [...new Set(allTags)].sort();
+  }, [nuggets]);
+
+  // Filter and shuffle nuggets based on mode and topics
   const displayedNuggets = useMemo(() => {
-    const filtered = showFavoritesOnly
+    // Step 1: Filter by favorites mode
+    let filtered = showFavoritesOnly
       ? nuggets.filter((n) => favorites.has(n.id))
       : nuggets;
 
-    // Apply anti-clustering shuffle (use different seed for favorites vs all)
+    // Step 2: Filter by selected topics (ANY-match)
+    if (selectedTopics.length > 0) {
+      filtered = filtered.filter((n) =>
+        n.topic_tags.some((tag) => selectedTopics.includes(tag))
+      );
+    }
+
+    // Step 3: Apply anti-clustering shuffle
     const shuffleSeed = showFavoritesOnly ? sessionSeed + 1 : sessionSeed;
     const shuffled = sessionSeed > 0 ? antiClusterShuffle(filtered, shuffleSeed) : filtered;
 
-    // Prepend preface card only in "All" mode (not favorites)
-    if (!showFavoritesOnly && shuffled.length > 0) {
+    // Step 4: Prepend preface card only in "All" mode (not favorites) - always show regardless of topic filter
+    if (!showFavoritesOnly && nuggets.length > 0) {
       return [prefaceCard, ...shuffled];
     }
 
     return shuffled;
-  }, [nuggets, favorites, showFavoritesOnly, sessionSeed, prefaceCard]);
+  }, [nuggets, favorites, showFavoritesOnly, selectedTopics, sessionSeed, prefaceCard]);
 
   // Navigation handlers
   const handleNext = () => {
@@ -344,6 +413,20 @@ export function Feed() {
 
   const currentNugget = displayedNuggets[currentIndex];
 
+  // Empty state message
+  const getEmptyMessage = () => {
+    if (showFavoritesOnly && selectedTopics.length > 0) {
+      return "No favorites match these topics";
+    }
+    if (showFavoritesOnly) {
+      return "No favorites yet";
+    }
+    if (selectedTopics.length > 0) {
+      return "No insights match these topics";
+    }
+    return "No nuggets found";
+  };
+
   return (
     <div className="min-h-screen bg-library">
       <Header
@@ -353,6 +436,9 @@ export function Feed() {
         showFavoritesOnly={showFavoritesOnly}
         onToggleFavorites={handleToggleFavorites}
         favoritesCount={favorites.size}
+        availableTopics={availableTopics}
+        selectedTopics={selectedTopics}
+        onTopicsChange={handleTopicsChange}
       />
 
       <main className="pt-16 pb-8 min-h-screen flex flex-col justify-start items-center" style={{ paddingTop: "max(4rem, 12vh)" }}>
@@ -363,15 +449,19 @@ export function Feed() {
           </div>
         ) : displayedNuggets.length === 0 ? (
           <div className="text-center">
-            <p className="text-[var(--text-muted)]">
-              {showFavoritesOnly ? "No favorites yet" : "No nuggets found"}
-            </p>
-            {showFavoritesOnly && (
+            <p className="text-[var(--text-muted)]">{getEmptyMessage()}</p>
+            {(showFavoritesOnly || selectedTopics.length > 0) && (
               <button
-                onClick={() => setShowFavoritesOnly(false)}
+                onClick={() => {
+                  if (selectedTopics.length > 0) {
+                    handleTopicsChange([]);
+                  } else {
+                    setShowFavoritesOnly(false);
+                  }
+                }}
                 className="mt-3 text-[var(--tan)] hover:text-[var(--parchment)] text-sm underline"
               >
-                Browse all nuggets
+                {selectedTopics.length > 0 ? "Clear topic filter" : "Browse all nuggets"}
               </button>
             )}
           </div>
@@ -385,6 +475,7 @@ export function Feed() {
             onFavoriteToggle={handleFavoriteToggle}
             totalCount={totalCount}
             isPreface={currentNugget?.id === "__preface__"}
+            onTagClick={handleTagClick}
           />
         )}
       </main>

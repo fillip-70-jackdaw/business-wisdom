@@ -15,6 +15,7 @@ interface NuggetViewerProps {
   onFavoriteToggle: () => void;
   totalCount: number;
   isPreface?: boolean;
+  onTagClick?: (tag: string) => void;
 }
 
 interface SideNavZoneProps {
@@ -136,6 +137,7 @@ export function NuggetViewer({
   onFavoriteToggle,
   totalCount,
   isPreface = false,
+  onTagClick,
 }: NuggetViewerProps) {
   const [direction, setDirection] = useState(0);
   const [showKeyboardHint, setShowKeyboardHint] = useState(true);
@@ -408,7 +410,12 @@ export function NuggetViewer({
                   {nugget.topic_tags.slice(0, 3).map((tag, i) => (
                     <span key={tag} className="flex items-center">
                       {i > 0 && <span className="mx-2 opacity-50">·</span>}
-                      <span className="capitalize">{tag}</span>
+                      <button
+                        onClick={() => onTagClick?.(tag)}
+                        className="capitalize hover:text-[var(--tan)] transition-colors cursor-pointer"
+                      >
+                        {tag}
+                      </button>
                     </span>
                   ))}
                 </div>
