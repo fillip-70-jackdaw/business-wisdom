@@ -19,6 +19,7 @@ interface HeaderProps {
   favoritesCount?: number;
   articlesCount?: number;
   isArticlesPage?: boolean;
+  isDigestPage?: boolean;
   topicsWithCounts?: TopicWithCount[];
   selectedTopics?: string[];
   onTopicsChange?: (topics: string[]) => void;
@@ -33,6 +34,7 @@ export function Header({
   favoritesCount = 0,
   articlesCount = 0,
   isArticlesPage = false,
+  isDigestPage = false,
   topicsWithCounts = [],
   selectedTopics = [],
   onTopicsChange,
@@ -93,6 +95,16 @@ export function Header({
                   {favoritesCount}
                 </span>
               )}
+            </Link>
+            <Link
+              href="/digest"
+              className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 flex items-center gap-1.5 ${
+                isDigestPage
+                  ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
+                  : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
+              }`}
+            >
+              Digest
             </Link>
             <Link
               href="/articles"

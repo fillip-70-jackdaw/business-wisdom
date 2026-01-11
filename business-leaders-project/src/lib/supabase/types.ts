@@ -163,6 +163,84 @@ export type Database = {
         };
         Relationships: [];
       };
+      digest_preferences: {
+        Row: {
+          user_id: string;
+          enabled: boolean;
+          email_enabled: boolean;
+          frequency: string;
+          send_time: string;
+          timezone: string;
+          last_sent_at: string | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          user_id: string;
+          enabled?: boolean;
+          email_enabled?: boolean;
+          frequency?: string;
+          send_time?: string;
+          timezone?: string;
+          last_sent_at?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          user_id?: string;
+          enabled?: boolean;
+          email_enabled?: boolean;
+          frequency?: string;
+          send_time?: string;
+          timezone?: string;
+          last_sent_at?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
+      digest_history: {
+        Row: {
+          id: string;
+          user_id: string;
+          nugget_id: string | null;
+          article_id: string | null;
+          sent_at: string;
+          opened_at: string | null;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          nugget_id?: string | null;
+          article_id?: string | null;
+          sent_at?: string;
+          opened_at?: string | null;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          nugget_id?: string | null;
+          article_id?: string | null;
+          sent_at?: string;
+          opened_at?: string | null;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "digest_history_nugget_id_fkey";
+            columns: ["nugget_id"];
+            isOneToOne: false;
+            referencedRelation: "nuggets";
+            referencedColumns: ["id"];
+          },
+          {
+            foreignKeyName: "digest_history_article_id_fkey";
+            columns: ["article_id"];
+            isOneToOne: false;
+            referencedRelation: "saved_articles";
+            referencedColumns: ["id"];
+          }
+        ];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
@@ -176,6 +254,8 @@ export type Leader = Database["public"]["Tables"]["leaders"]["Row"];
 export type Nugget = Database["public"]["Tables"]["nuggets"]["Row"];
 export type Favorite = Database["public"]["Tables"]["favorites"]["Row"];
 export type SavedArticle = Database["public"]["Tables"]["saved_articles"]["Row"];
+export type DigestPreferences = Database["public"]["Tables"]["digest_preferences"]["Row"];
+export type DigestHistory = Database["public"]["Tables"]["digest_history"]["Row"];
 
 export type NuggetWithLeader = Nugget & {
   leader: Leader;
