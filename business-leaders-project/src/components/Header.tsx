@@ -19,6 +19,7 @@ interface HeaderProps {
   favoritesCount?: number;
   articlesCount?: number;
   isArticlesPage?: boolean;
+  isDailyPage?: boolean;
   topicsWithCounts?: TopicWithCount[];
   selectedTopics?: string[];
   onTopicsChange?: (topics: string[]) => void;
@@ -33,6 +34,7 @@ export function Header({
   favoritesCount = 0,
   articlesCount = 0,
   isArticlesPage = false,
+  isDailyPage = false,
   topicsWithCounts = [],
   selectedTopics = [],
   onTopicsChange,
@@ -66,12 +68,22 @@ export function Header({
             <Link
               href="/"
               className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 ${
-                !showFavoritesOnly
+                !showFavoritesOnly && !isArticlesPage && !isDailyPage
                   ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
                   : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
               }`}
             >
               All
+            </Link>
+            <Link
+              href="/daily"
+              className={`px-4 py-1.5 text-xs font-medium rounded-md transition-all duration-200 ${
+                isDailyPage
+                  ? "bg-[rgba(255,238,214,0.08)] text-[var(--parchment)]"
+                  : "text-[rgba(247,232,208,0.5)] hover:text-[var(--tan)]"
+              }`}
+            >
+              Daily
             </Link>
             <Link
               href="/favorites"

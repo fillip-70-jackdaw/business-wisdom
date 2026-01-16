@@ -163,6 +163,71 @@ export type Database = {
         };
         Relationships: [];
       };
+      user_daily_preferences: {
+        Row: {
+          user_id: string;
+          current_streak: number;
+          longest_streak: number;
+          last_visit_date: string | null;
+          total_visits: number;
+          email_enabled: boolean;
+          email_time: string;
+          email_timezone: string;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          user_id: string;
+          current_streak?: number;
+          longest_streak?: number;
+          last_visit_date?: string | null;
+          total_visits?: number;
+          email_enabled?: boolean;
+          email_time?: string;
+          email_timezone?: string;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          user_id?: string;
+          current_streak?: number;
+          longest_streak?: number;
+          last_visit_date?: string | null;
+          total_visits?: number;
+          email_enabled?: boolean;
+          email_time?: string;
+          email_timezone?: string;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
+      daily_nuggets: {
+        Row: {
+          date: string;
+          nugget_id: string;
+          created_at: string;
+        };
+        Insert: {
+          date: string;
+          nugget_id: string;
+          created_at?: string;
+        };
+        Update: {
+          date?: string;
+          nugget_id?: string;
+          created_at?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: "daily_nuggets_nugget_id_fkey";
+            columns: ["nugget_id"];
+            isOneToOne: false;
+            referencedRelation: "nuggets";
+            referencedColumns: ["id"];
+          }
+        ];
+      };
     };
     Views: Record<string, never>;
     Functions: Record<string, never>;
@@ -176,6 +241,8 @@ export type Leader = Database["public"]["Tables"]["leaders"]["Row"];
 export type Nugget = Database["public"]["Tables"]["nuggets"]["Row"];
 export type Favorite = Database["public"]["Tables"]["favorites"]["Row"];
 export type SavedArticle = Database["public"]["Tables"]["saved_articles"]["Row"];
+export type UserDailyPreferences = Database["public"]["Tables"]["user_daily_preferences"]["Row"];
+export type DailyNugget = Database["public"]["Tables"]["daily_nuggets"]["Row"];
 
 export type NuggetWithLeader = Nugget & {
   leader: Leader;
