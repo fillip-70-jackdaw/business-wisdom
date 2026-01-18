@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-08T17:55:24.691Z",
+  "generated_at": "2026-01-18T04:01:40.929Z",
   "stats": {
     "total": 82,
-    "wikipedia_images": 60,
-    "fallback_avatars": 22
+    "wikipedia_images": 61,
+    "fallback_avatars": 21
   },
   "results": {
     "walt-disney": {
@@ -378,10 +378,10 @@
       "verified": true
     },
     "bob-iger": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MywgNDglLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDMsIDIwJSwgODUlKSI+CiAgICAgICAgQkkKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2022_Bob_Iger_%28cropped%29.jpg/482px-2022_Bob_Iger_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:2022_Bob_Iger_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Village Global",
       "verified": true
     },
     "ed-catmull": {
