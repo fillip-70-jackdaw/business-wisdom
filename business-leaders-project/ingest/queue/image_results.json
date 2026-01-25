@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-08T17:55:24.691Z",
+  "generated_at": "2026-01-25T04:21:01.906Z",
   "stats": {
     "total": 82,
-    "wikipedia_images": 60,
-    "fallback_avatars": 22
+    "wikipedia_images": 62,
+    "fallback_avatars": 20
   },
   "results": {
     "walt-disney": {
@@ -378,10 +378,10 @@
       "verified": true
     },
     "bob-iger": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MywgNDglLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDMsIDIwJSwgODUlKSI+CiAgICAgICAgQkkKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2022_Bob_Iger_%28cropped%29.jpg/482px-2022_Bob_Iger_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:2022_Bob_Iger_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Village Global",
       "verified": true
     },
     "ed-catmull": {
@@ -392,10 +392,10 @@
       "verified": true
     },
     "bill-bowerman": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMSwgMzYlLCAyNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzEsIDIwJSwgODUlKSI+CiAgICAgICAgQkIKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bill_Bowerman.jpg/411px-Bill_Bowerman.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Bowerman.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "University of Oregon",
       "verified": true
     },
     "don-valentine": {
