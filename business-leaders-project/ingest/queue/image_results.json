@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-01-08T17:55:24.691Z",
+  "generated_at": "2026-05-10T02:31:18.099Z",
   "stats": {
     "total": 82,
-    "wikipedia_images": 60,
-    "fallback_avatars": 22
+    "wikipedia_images": 61,
+    "fallback_avatars": 21
   },
   "results": {
     "walt-disney": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Walt_Disney_1946_%28cropped2%29.JPG/450px-Walt_Disney_1946_%28cropped2%29.JPG",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Walt_Disney_1946_%28cropped2%29.JPG",
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG",
       "photo_license": "Public domain",
       "photo_attribution": "Boy Scouts of America",
       "verified": true
     },
     "steve-jobs": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/500px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010-CROP_(cropped_2).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg/500px-Steve_Jobs_Headshot_2010_%28cropped_4%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_4).jpg",
       "photo_license": "CC BY-SA 3.0",
-      "photo_attribution": "Matthew Yohe (talk)",
+      "photo_attribution": "Matthew Yohe",
       "verified": true
     },
     "henry-ford": {
@@ -28,8 +28,8 @@
       "verified": true
     },
     "andrew-carnegie": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913_%28cropped%29_%282%29.jpg/500px-Andrew_Carnegie%2C_three-quarter_length_portrait%2C_seated%2C_facing_slightly_left%2C_1913_%28cropped%29_%282%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_three-quarter_length_portrait,_seated,_facing_slightly_left,_1913_(cropped)_(2).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Andrew_Carnegie%2C_by_Theodore_Marceau_%28cropped%29_%282%29.jpg/500px-Andrew_Carnegie%2C_by_Theodore_Marceau_%28cropped%29_%282%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Andrew_Carnegie,_by_Theodore_Marceau_(cropped)_(2).jpg",
       "photo_license": "Public domain",
       "photo_attribution": "Theodore C. Marceau",
       "verified": true
@@ -70,7 +70,7 @@
       "verified": true
     },
     "coco-chanel": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg/467px-Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg",
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Coco_Chanel_in_Los_Angeles,_1931_(cropped).jpg",
       "photo_license": "CC BY 4.0",
       "photo_attribution": "Los Angeles Times",
@@ -112,8 +112,8 @@
       "verified": true
     },
     "ray-kroc": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Ray_kroc_1976.jpg/500px-Ray_kroc_1976.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ray_kroc_1976.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ray_Kroc_1976.jpg/500px-Ray_Kroc_1976.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ray_Kroc_1976.jpg",
       "photo_license": "Public domain",
       "photo_attribution": "Unknown authorUnknown author",
       "verified": true
@@ -133,7 +133,7 @@
       "verified": true
     },
     "charlie-munger": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Charlie_Munger_%28cropped%29.jpg/477px-Charlie_Munger_%28cropped%29.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Charlie_Munger_%28cropped%29.jpg",
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Charlie_Munger_(cropped).jpg",
       "photo_license": "CC BY 2.0",
       "photo_attribution": "Nick",
@@ -161,8 +161,8 @@
       "verified": true
     },
     "cornelius-vanderbilt": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cornelius_Vanderbilt_Daguerrotype2.jpg/500px-Cornelius_Vanderbilt_Daguerrotype2.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Cornelius_Vanderbilt_Daguerrotype2.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Cornelius_Vanderbilt_Daguerrotype2_%28cropped%29%28b%29.jpg/500px-Cornelius_Vanderbilt_Daguerrotype2_%28cropped%29%28b%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Cornelius_Vanderbilt_Daguerrotype2_(cropped)(b).jpg",
       "photo_license": "Public domain",
       "photo_attribution": "Produced by Mathew Brady's studio, restored by Michel Vuijlsteke",
       "verified": true
@@ -175,7 +175,7 @@
       "verified": true
     },
     "howard-hughes": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Howard_Hughes_1938.jpg/483px-Howard_Hughes_1938.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Howard_Hughes_1938.jpg",
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Howard_Hughes_1938.jpg",
       "photo_license": "Public domain",
       "photo_attribution": "Acme Newspictures",
@@ -189,7 +189,7 @@
       "verified": true
     },
     "ingvar-kamprad": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Ingvar_Kamprad_Haparanda_June_2010.jpg/468px-Ingvar_Kamprad_Haparanda_June_2010.jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Ingvar_Kamprad_Haparanda_June_2010.jpg",
       "photo_source_url": "https://commons.wikimedia.org/wiki/File:Ingvar_Kamprad_Haparanda_June_2010.jpg",
       "photo_license": "CC BY 2.0",
       "photo_attribution": "Ministry of Enterprise, Energy and Communications of Sweden/Sandra Baqirjazid",
@@ -259,10 +259,10 @@
       "verified": true
     },
     "mary-kay-ash": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/MaryKay.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:MaryKay.jpg",
-      "photo_license": "CC BY-SA 4.0",
-      "photo_attribution": "LizaKoz",
+      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzNSwgNDAlLCAyNSUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzUsIDIwJSwgODUlKSI+CiAgICAgICAgTUsKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
+      "photo_source_url": "",
+      "photo_license": "generated",
+      "photo_attribution": "Generated avatar",
       "verified": true
     },
     "les-schwab": {
@@ -308,8 +308,8 @@
       "verified": true
     },
     "bill-gates": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg/500px-Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_%28cropped%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_2025_-_P067383-987995_(cropped).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg/500px-Bill_Gates_at_the_European_Commission_-_P067383-987995_%28cropped%29_5.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg",
       "photo_license": "CC BY 4.0",
       "photo_attribution": "Bogdan Hoyaux / European Union",
       "verified": true
@@ -343,8 +343,8 @@
       "verified": true
     },
     "shigeru-miyamoto": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Shigeru_Miyamoto_20150610_%28cropped%29.jpg/500px-Shigeru_Miyamoto_20150610_%28cropped%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610_(cropped).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Shigeru_Miyamoto_20150610_%28cropped_4%29.jpg/500px-Shigeru_Miyamoto_20150610_%28cropped_4%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Shigeru_Miyamoto_20150610_(cropped_4).jpg",
       "photo_license": "CC BY 4.0",
       "photo_attribution": "Minister's Secretariat Personnel Division",
       "verified": true
@@ -378,10 +378,10 @@
       "verified": true
     },
     "bob-iger": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCg0MywgNDglLCAzMyUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woNDMsIDIwJSwgODUlKSI+CiAgICAgICAgQkkKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/2022_Bob_Iger_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:2022_Bob_Iger_(cropped).jpg",
+      "photo_license": "CC BY 2.0",
+      "photo_attribution": "Village Global",
       "verified": true
     },
     "ed-catmull": {
@@ -392,10 +392,10 @@
       "verified": true
     },
     "bill-bowerman": {
-      "photo_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj4KICAgICAgPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9ImhzbCgzMSwgMzYlLCAyNiUpIi8+CiAgICAgIDx0ZXh0IHg9IjUwIiB5PSI1MCIgZHk9IjAuMzVlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSIKICAgICAgICAgICAgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIHNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iNTAwIgogICAgICAgICAgICBmaWxsPSJoc2woMzEsIDIwJSwgODUlKSI+CiAgICAgICAgQkIKICAgICAgPC90ZXh0PgogICAgPC9zdmc+",
-      "photo_source_url": "",
-      "photo_license": "generated",
-      "photo_attribution": "Generated avatar",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Bill_Bowerman.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Bill_Bowerman.jpg",
+      "photo_license": "Public domain",
+      "photo_attribution": "University of Oregon",
       "verified": true
     },
     "don-valentine": {
@@ -434,10 +434,10 @@
       "verified": true
     },
     "john-collison": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sportsfile_%28Web_Summit%29_%2815088695584%29.jpg/500px-Sportsfile_%28Web_Summit%29_%2815088695584%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Sportsfile_(Web_Summit)_(15088695584).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Prime_Minister_meets_with_the_Founder_%26_President_of_Stripe_-_52922981984_%28cropped%29.jpg/500px-The_Prime_Minister_meets_with_the_Founder_%26_President_of_Stripe_-_52922981984_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:The_Prime_Minister_meets_with_the_Founder_%26_President_of_Stripe_-_52922981984_(cropped).jpg",
       "photo_license": "CC BY 2.0",
-      "photo_attribution": "Web Summit",
+      "photo_attribution": "UK Prime Minister",
       "verified": true
     },
     "travis-kalanick": {
@@ -462,17 +462,17 @@
       "verified": true
     },
     "mark-zuckerberg": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/F20250904AH-2824_%2854778373111%29_%28cropped%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:F20250904AH-2824_(54778373111)_(cropped).jpg",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Mark_Zuckerberg_in_September_2025_%28cropped%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_in_September_2025_(cropped).jpg",
       "photo_license": "Public domain",
       "photo_attribution": "The White House",
       "verified": true
     },
     "tim-cook": {
-      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_%28cropped%29.jpg/500px-P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_%28cropped%29.jpg",
-      "photo_source_url": "https://commons.wikimedia.org/wiki/File:P20250806MR-0248_President_Donald_Trump_delivers_investment_remarks_alongside_Apple_CEO_Tim_Cook_(cropped).jpg",
-      "photo_license": "Public domain",
-      "photo_attribution": "The White House",
+      "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Tim_Cook_March_2026_%28cropped_2%29.jpg/500px-Tim_Cook_March_2026_%28cropped_2%29.jpg",
+      "photo_source_url": "https://commons.wikimedia.org/wiki/File:Tim_Cook_March_2026_(cropped_2).jpg",
+      "photo_license": "CC BY 4.0",
+      "photo_attribution": "Tessa Bury",
       "verified": true
     },
     "jony-ive": {
